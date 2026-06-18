@@ -27,7 +27,7 @@ function ChipGroup({ label, options, selected, onChange }) {
   )
 }
 
-export default function FilterPanel({ filters, onChange, open, onToggle }) {
+export default function FilterPanel({ filters, onChange, open, onToggle, className = '' }) {
   const activeCount = [
     filters.lines.length, filters.cities.length, filters.types.length,
     filters.tags.length, filters.eras.length,
@@ -35,9 +35,9 @@ export default function FilterPanel({ filters, onChange, open, onToggle }) {
   ].reduce((a, b) => a + b, 0)
 
   return (
-    <div className="relative">
+    <div className={`relative ${className}`}>
       <button onClick={onToggle}
-        className="flex items-center gap-2 bg-white/90 backdrop-blur rounded-2xl shadow-lg px-4 py-3 border border-[#E8D5C0] hover:border-[#E8735A] transition-colors">
+        className="w-full flex items-center justify-center gap-2 bg-white/90 backdrop-blur rounded-2xl shadow-lg px-4 py-3 border border-[#E8D5C0] hover:border-[#E8735A] transition-colors">
         <span className="text-base">篩選</span>
         {activeCount > 0 && (
           <span className="bg-[#E8735A] text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-medium">{activeCount}</span>
