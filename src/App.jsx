@@ -75,8 +75,8 @@ export default function App() {
         highlightPath={highlightPath}
       />
 
-      {/* 頂部工具列：漢堡 + 搜尋 */}
-      <div className="absolute top-3 left-3 right-3 z-[999] flex items-center gap-2">
+      {/* 頂部工具列：漢堡 + 搜尋（抽屜開啟時隱藏） */}
+      {!drawerOpen && <div className="absolute top-3 left-3 right-3 z-[999] flex items-center gap-2">
         <button
           onClick={() => { setDrawerOpen(true); setSelectedStation(null) }}
           className="bg-white/90 backdrop-blur rounded-xl shadow-lg px-3 py-2.5 border border-[#E8D5C0] hover:border-[#E8735A] flex-shrink-0 text-[18px] leading-none transition-colors"
@@ -91,7 +91,7 @@ export default function App() {
             onClearHistory={() => setHistory([])}
           />
         </div>
-      </div>
+      </div>}
 
       {/* 側邊抽屜 */}
       <Drawer
