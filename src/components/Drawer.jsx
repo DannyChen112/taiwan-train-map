@@ -50,9 +50,30 @@ function Section({ title, badge, expanded, onToggle, children }) {
   )
 }
 
-export default function Drawer({ open, onClose, filters, onFiltersChange, onHighlightPath, onRandomExplore }) {
+function StationList({ ids, allStations, onSelectStation, emptyMsg }) {
+  const list = ids.map(id => allStations.find(s => s.id === id)).filter(Boolean)
+  if (list.length === 0) {
+    return <p className="text-[14px] text-[#8C7B75] text-center py-3">{emptyMsg}</p>
+  }
+  return (
+    <div className="space-y-1">
+      {list.map(s => (
+        <button key={s.id} onClick={() => onSelectStation(s)}
+          className="w-full flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-[#FFF3E8] transition-colors text-left">
+          <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: LINES[s.line]?.color || '#888' }} />
+          <span className="text-[14px] text-[#3D3535] font-medium">{s.name}</span>
+          <span className="text-[13px] text-[#8C7B75] ml-auto">{s.line}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
+
+export default function Drawer({ open, onClose, filters, onFiltersChange, onHighlightPath, onRandomExplore, favorites, visited, onSelectStation }) {
   const [filterOpen, setFilterOpen] = useState(false)
   const [trainOpen, setTrainOpen] = useState(false)
+  const [listOpen, setListOpen] = useState(false)
+  const [visitedOpen, setVisitedOpen] = useState(false)
   const [origin, setOrigin] = useState('')
   const [dest, setDest] = useState('')
   const [date, setDate] = useState(today())
@@ -82,12 +103,12 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
     }
   }
 
+  const handleSelectAndClose = (s) => { onSelectStation(s); onClose() }
+
   return (
     <>
-      {/* 背景遮罩 */}
       {open && <div className="fixed inset-0 z-[994] bg-black/20" onClick={onClose} />}
 
-      {/* 抽屜本體 */}
       <div className={`fixed top-0 left-0 h-full w-[272px] bg-[#FFFDF9] border-r border-[#E8D5C0] shadow-2xl z-[995] flex flex-col transition-transform duration-300 ease-out ${open ? 'translate-x-0' : '-translate-x-full'}`}>
 
         {/* 標題列 */}
@@ -96,36 +117,48 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
           <button onClick={onClose} className="text-[#8C7B75] hover:text-[#E8735A] text-[18px] leading-none transition-colors">✕</button>
         </div>
 
-        {/* 可捲動內容 */}
         <div className="flex-1 overflow-y-auto">
 
           {/* 隨機探索 */}
           <div className="p-4 border-b border-[#F0E6D6]">
-            <button
-              onClick={() => { onRandomExplore(); onClose() }}
+            <button onClick={() => { onRandomExplore(); onClose() }}
               className="w-full py-2.5 bg-[#E8735A] text-white rounded-xl text-[15px] font-medium hover:bg-[#D4614A] active:scale-95 transition-all">
               🎲 隨機探索小站
             </button>
           </div>
 
+          {/* 我的清單 */}
+          <Section title={`♥ 我的清單`} badge={favorites.length} expanded={listOpen} onToggle={() => setListOpen(o => !o)}>
+            <StationList ids={favorites} allStations={stations} onSelectStation={handleSelectAndClose} emptyMsg="還沒有收藏的車站" />
+          </Section>
+
+          {/* 足跡地圖 */}
+          <Section title={`✓ 足跡地圖`} badge={visited.length} expanded={visitedOpen} onToggle={() => setVisitedOpen(o => !o)}>
+            <div className="mb-3">
+              <div className="flex justify-between text-[13px] text-[#8C7B75] mb-1.5">
+                <span>到訪進度</span>
+                <span>{visited.length} / {stations.length} 站</span>
+              </div>
+              <div className="h-2 bg-[#F0E8DE] rounded-full overflow-hidden">
+                <div className="h-full bg-[#7BC8A4] rounded-full transition-all" style={{ width: `${(visited.length / stations.length) * 100}%` }} />
+              </div>
+            </div>
+            <StationList ids={visited} allStations={stations} onSelectStation={handleSelectAndClose} emptyMsg="還沒有到訪紀錄" />
+          </Section>
+
           {/* 篩選條件 */}
           <Section title="篩選條件" badge={activeCount} expanded={filterOpen} onToggle={() => setFilterOpen(o => !o)}>
-            <button
-              onClick={() => onFiltersChange({ lines: [], cities: [], types: [], tags: [], eras: [], passengerLevel: 'all' })}
-              className="text-[13px] text-[#E8735A] hover:underline mb-3 block">
-              全部清除
-            </button>
+            <button onClick={() => onFiltersChange({ lines: [], cities: [], types: [], tags: [], eras: [], passengerLevel: 'all' })}
+              className="text-[13px] text-[#E8735A] hover:underline mb-3 block">全部清除</button>
 
             <div className="mb-3">
               <div className="text-[13px] text-[#8C7B75] font-medium mb-1.5">旅客量</div>
               <div className="flex gap-1.5">
                 {[['all','全部'],['low','低'],['mid','中'],['high','高']].map(([val, label]) => (
-                  <button key={val}
-                    onClick={() => onFiltersChange({ ...filters, passengerLevel: val })}
+                  <button key={val} onClick={() => onFiltersChange({ ...filters, passengerLevel: val })}
                     className={`flex-1 py-1.5 rounded-lg text-[13px] border transition-all ${filters.passengerLevel === val
                       ? 'bg-[#E8735A] text-white border-[#E8735A]'
-                      : 'bg-white text-[#3D3535] border-[#E8D5C0] hover:border-[#E8735A]'
-                    }`}>
+                      : 'bg-white text-[#3D3535] border-[#E8D5C0] hover:border-[#E8735A]'}`}>
                     {label}
                   </button>
                 ))}
@@ -145,25 +178,19 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
               {[['出發站', origin, setOrigin], ['目的地', dest, setDest]].map(([label, val, set]) => (
                 <div key={label}>
                   <label className="text-[13px] text-[#8C7B75] font-medium">{label}</label>
-                  <input
-                    value={val}
-                    onChange={e => set(e.target.value)}
-                    placeholder={`輸入${label}名稱`}
+                  <input value={val} onChange={e => set(e.target.value)} placeholder={`輸入${label}名稱`}
                     className="w-full mt-1 px-3 py-2 text-[14px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors"
-                    list={`drawer-stations-${label}`}
-                  />
+                    list={`drawer-stations-${label}`} />
                   <datalist id={`drawer-stations-${label}`}>
                     {stations.map(s => <option key={s.id} value={s.name} />)}
                   </datalist>
                 </div>
               ))}
-
               <div>
                 <label className="text-[13px] text-[#8C7B75] font-medium">日期</label>
                 <input type="date" value={date} onChange={e => setDate(e.target.value)}
                   className="w-full mt-1 px-3 py-2 text-[14px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
               </div>
-
               <button onClick={handleQuery} disabled={loading}
                 className="w-full py-2.5 bg-[#E8735A] text-white rounded-xl text-[15px] font-medium hover:bg-[#D4614A] active:scale-95 transition-all disabled:opacity-50">
                 {loading ? '查詢中...' : '查詢班次'}
@@ -179,27 +206,22 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
                     <p className="text-[14px] text-[#8C7B75]">此區間無直達班次</p>
                     <a href="https://tip.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime"
                       target="_blank" rel="noopener noreferrer"
-                      className="inline-block mt-1.5 text-[13px] text-[#E8735A] hover:underline">
-                      查看台鐵完整時刻 →
-                    </a>
+                      className="inline-block mt-1.5 text-[13px] text-[#E8735A] hover:underline">查看台鐵完整時刻 →</a>
                   </div>
                 ) : results.slice(0, 10).map((t, i) => {
                   const info = t.TrainInfo
                   const stops = t.StopTimes
                   if (!info || !stops) return null
-                  const dep = stops[0]?.DepartureTime || '—'
-                  const arr = stops[stops.length - 1]?.ArrivalTime || '—'
-                  const typeLabel = TRAIN_TYPE[info.TrainTypeCode] || info.TrainTypeName || '列車'
                   return (
                     <div key={i} className="bg-[#FFF8EE] rounded-xl p-2.5 border border-[#E8D5C0]">
                       <div className="flex items-center justify-between mb-1">
-                        <span className="text-[13px] font-semibold text-[#E8735A]">{typeLabel}</span>
+                        <span className="text-[13px] font-semibold text-[#E8735A]">{TRAIN_TYPE[info.TrainTypeCode] || info.TrainTypeName || '列車'}</span>
                         <span className="text-[12px] text-[#8C7B75]">#{info.TrainNo}</span>
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className="text-[15px] font-bold text-[#3D3535]">{dep}</span>
+                        <span className="text-[15px] font-bold text-[#3D3535]">{stops[0]?.DepartureTime || '—'}</span>
                         <span className="flex-1 text-center text-[12px] text-[#8C7B75]">→</span>
-                        <span className="text-[15px] font-bold text-[#3D3535]">{arr}</span>
+                        <span className="text-[15px] font-bold text-[#3D3535]">{stops[stops.length - 1]?.ArrivalTime || '—'}</span>
                       </div>
                     </div>
                   )
@@ -207,6 +229,7 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
               </div>
             )}
           </Section>
+
         </div>
       </div>
     </>

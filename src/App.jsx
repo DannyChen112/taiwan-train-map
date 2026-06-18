@@ -3,7 +3,6 @@ import MapView from './components/MapView'
 import SearchBar from './components/SearchBar'
 import StationPanel from './components/StationPanel'
 import Drawer from './components/Drawer'
-import BottomBar, { BottomPanel } from './components/BottomBar'
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { getRoutePath } from './data/lines'
 import allStations from './data/stations.json'
@@ -28,7 +27,6 @@ export default function App() {
   const [selectedStation, setSelectedStation] = useState(null)
   const [filters, setFilters] = useState(DEFAULT_FILTERS)
   const [drawerOpen, setDrawerOpen] = useState(false)
-  const [tab, setTab] = useState(null)
   const [highlightPath, setHighlightPath] = useState(null)
 
   const [favorites, setFavorites] = useLocalStorage('tw-train-favorites', [])
@@ -101,6 +99,9 @@ export default function App() {
         onFiltersChange={setFilters}
         onHighlightPath={handleHighlightPath}
         onRandomExplore={handleRandomExplore}
+        favorites={favorites}
+        visited={visited}
+        onSelectStation={handleSelectStation}
       />
 
       {/* 車站資訊面板 */}
@@ -117,8 +118,6 @@ export default function App() {
         />
       )}
 
-      <BottomBar tab={tab} onTab={setTab} favorites={favorites} visited={visited} />
-      <BottomPanel tab={tab} stations={allStations} favorites={favorites} visited={visited} onSelectStation={handleSelectStation} />
     </div>
   )
 }
