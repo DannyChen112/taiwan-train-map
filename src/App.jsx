@@ -77,11 +77,11 @@ export default function App() {
       {!drawerOpen && <div className="absolute top-3 left-3 right-3 z-[999] flex items-center gap-2">
         <button
           onClick={() => { setDrawerOpen(true); setSelectedStation(null) }}
-          className="bg-white/90 backdrop-blur rounded-xl shadow-lg px-3 py-2.5 border border-[#E8D5C0] hover:border-[#E8735A] flex-shrink-0 text-[18px] leading-none transition-colors"
+          className="bg-white/90 backdrop-blur rounded-xl shadow-lg w-10 h-10 border border-[#E8D5C0] hover:border-[#E8735A] flex-shrink-0 flex items-center justify-center text-[18px] transition-colors"
           aria-label="開啟選單">
           ☰
         </button>
-        <div className="flex-1 min-w-0">
+        <div className="min-w-0 max-w-[220px]">
           <SearchBar
             stations={allStations}
             onSelect={handleSelectStation}
