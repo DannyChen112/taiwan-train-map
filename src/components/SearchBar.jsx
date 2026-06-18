@@ -25,7 +25,7 @@ export default function SearchBar({ stations, onSelect, history, onClearHistory 
 
   return (
     <div ref={ref} className="relative w-full max-w-md">
-      <div className="flex items-center bg-white/90 backdrop-blur rounded-2xl shadow-lg px-4 py-3 gap-2 border border-[#E8D5C0]">
+      <div className="flex items-center bg-white/90 backdrop-blur rounded-2xl shadow-lg px-3 py-2 gap-2 border border-[#E8D5C0]">
         <span className="text-[#8C7B75] text-lg">🔍</span>
         <input
           className="flex-1 bg-transparent outline-none text-[#3D3535] text-base placeholder-[#8C7B75]"
