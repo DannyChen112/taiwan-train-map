@@ -265,7 +265,7 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
               <div>
                 <label className="text-[13px] text-[#8C7B75] font-medium">日期</label>
                 <input type="date" value={date} onChange={e => setDate(e.target.value)}
-                  className="w-full mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
+                  className="w-full max-w-full mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors box-border" />
               </div>
               <div className="flex gap-2">
                 <button onClick={handleQuery} disabled={loading}
