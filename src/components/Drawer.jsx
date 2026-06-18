@@ -109,7 +109,7 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
     <>
       {open && <div className="fixed inset-0 z-[994] bg-black/20" onClick={onClose} />}
 
-      <div className={`fixed top-0 left-0 h-full w-[272px] bg-[#FFFDF9] border-r border-[#E8D5C0] shadow-2xl z-[995] flex flex-col transition-transform duration-300 ease-out ${open ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`fixed top-0 left-0 h-full w-[220px] sm:w-[272px] bg-[#FFFDF9] border-r border-[#E8D5C0] shadow-2xl z-[995] flex flex-col transition-transform duration-300 ease-out ${open ? 'translate-x-0' : '-translate-x-full'}`}>
 
         {/* 標題列 */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-[#E8D5C0] flex-shrink-0">
