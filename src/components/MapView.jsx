@@ -6,21 +6,20 @@ import { LINE_PATHS, TRUNK_LINES, TRUNK_COLOR, BRANCH_COLOR, SELECTED_COLOR } fr
 const MAP_STYLE = {
   version: 8,
   sources: {
-    terrain: {
+    carto: {
       type: 'raster',
-      tiles: ['https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png'],
+      tiles: ['https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png'],
       tileSize: 256,
-      attribution: '&copy; <a href="https://stamen.com">Stamen</a> &copy; <a href="https://stadiamaps.com">Stadia Maps</a> &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }
   },
   layers: [{
-    id: 'terrain-layer',
+    id: 'carto-layer',
     type: 'raster',
-    source: 'terrain',
+    source: 'carto',
     paint: {
-      'raster-saturation': -0.28,
-      'raster-brightness-max': 1.0,
-      'raster-contrast': -0.08
+      'raster-saturation': -0.15,
+      'raster-contrast': -0.05
     }
   }]
 }
