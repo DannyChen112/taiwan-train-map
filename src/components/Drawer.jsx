@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import { createPortal } from 'react-dom'
 import { queryTrains } from '../api/tdx'
 import { LINES } from '../data/lines'
 import stations from '../data/stations.json'
@@ -13,30 +14,46 @@ function today() { return new Date().toISOString().slice(0, 10) }
 
 function StationInput({ label, value, onChange }) {
   const [open, setOpen] = useState(false)
-  const ref = useRef(null)
+  const [pos, setPos] = useState(null)
+  const inputRef = useRef(null)
+  const dropRef = useRef(null)
+
   const filtered = value.length > 0
     ? stations.filter(s => s.name.includes(value)).slice(0, 7)
     : []
 
+  const updatePos = () => {
+    if (inputRef.current) {
+      const r = inputRef.current.getBoundingClientRect()
+      setPos({ top: r.bottom + 4, left: r.left, width: r.width })
+    }
+  }
+
   useEffect(() => {
-    const close = (e) => { if (!ref.current?.contains(e.target)) setOpen(false) }
+    const close = (e) => {
+      if (!inputRef.current?.contains(e.target) && !dropRef.current?.contains(e.target))
+        setOpen(false)
+    }
     document.addEventListener('mousedown', close)
     document.addEventListener('touchstart', close)
     return () => { document.removeEventListener('mousedown', close); document.removeEventListener('touchstart', close) }
   }, [])
 
   return (
-    <div ref={ref} className="relative">
+    <div>
       <label className="text-[13px] text-[#8C7B75] font-medium">{label}</label>
       <input
+        ref={inputRef}
         value={value}
-        onChange={e => { onChange(e.target.value); setOpen(true) }}
-        onFocus={() => setOpen(true)}
+        onChange={e => { onChange(e.target.value); updatePos(); setOpen(true) }}
+        onFocus={() => { updatePos(); setOpen(true) }}
         placeholder={`輸入${label}名稱`}
         className="w-full mt-1 px-3 py-2 text-[14px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors"
       />
-      {open && filtered.length > 0 && (
-        <div className="absolute left-0 right-0 top-full mt-1 bg-white border border-[#E8D5C0] rounded-lg shadow-lg z-[1100] max-h-48 overflow-y-auto">
+      {open && filtered.length > 0 && pos && createPortal(
+        <div ref={dropRef}
+          style={{ position: 'fixed', top: pos.top, left: pos.left, width: pos.width, zIndex: 9999 }}
+          className="bg-white border border-[#E8D5C0] rounded-lg shadow-lg max-h-48 overflow-y-auto">
           {filtered.map(s => (
             <button key={s.id}
               onClick={() => { onChange(s.name); setOpen(false) }}
@@ -45,7 +62,8 @@ function StationInput({ label, value, onChange }) {
               <span className="text-[11px] text-[#8C7B75] ml-2 flex-shrink-0">{s.line}</span>
             </button>
           ))}
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   )
@@ -220,7 +238,7 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
               <div>
                 <label className="text-[13px] text-[#8C7B75] font-medium">日期</label>
                 <input type="date" value={date} onChange={e => setDate(e.target.value)}
-                  className="w-full min-w-0 mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
+                  className="w-[80%] min-w-0 mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
               </div>
               <button onClick={handleQuery} disabled={loading}
                 className="w-full py-2.5 bg-[#E8735A] text-white rounded-xl text-[15px] font-medium hover:bg-[#D4614A] active:scale-95 transition-all disabled:opacity-50">
