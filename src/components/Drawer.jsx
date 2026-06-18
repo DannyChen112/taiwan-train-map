@@ -202,7 +202,7 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
           <button onClick={onClose} className="text-[#8C7B75] hover:text-[#E8735A] text-[18px] leading-none transition-colors">✕</button>
         </div>
 
-        <div className="flex-1 overflow-y-auto">
+        <div className="flex-1 overflow-y-auto overflow-x-hidden">
 
           {/* 隨機探索 */}
           <div className="p-4 border-b border-[#F0E6D6]">
@@ -265,7 +265,7 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
               <div>
                 <label className="text-[13px] text-[#8C7B75] font-medium">日期</label>
                 <input type="date" value={date} onChange={e => setDate(e.target.value)}
-                  className="w-full max-w-full mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors box-border" />
+                  className="w-full mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
               </div>
               <div className="flex gap-2">
                 <button onClick={handleQuery} disabled={loading}
