@@ -3,26 +3,7 @@ import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import { LINE_PATHS, TRUNK_LINES, TRUNK_COLOR, BRANCH_COLOR, SELECTED_COLOR } from '../data/lines'
 
-const MAP_STYLE = {
-  version: 8,
-  sources: {
-    carto: {
-      type: 'raster',
-      tiles: ['https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png'],
-      tileSize: 256,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-    }
-  },
-  layers: [{
-    id: 'carto-layer',
-    type: 'raster',
-    source: 'carto',
-    paint: {
-      'raster-saturation': -0.15,
-      'raster-contrast': -0.05
-    }
-  }]
-}
+const MAP_STYLE = 'https://tiles.openfreemap.org/styles/bright'
 
 function passengerToRadius(p) {
   if (p < 100) return 5
