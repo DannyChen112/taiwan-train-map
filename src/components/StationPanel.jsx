@@ -22,7 +22,7 @@ function PassengerBar({ count }) {
 }
 
 function StationPhoto({ station }) {
-  const { photo, loading } = useStationPhoto(station.links.wikipedia)
+  const { photo, loading } = useStationPhoto(station.links.wikipedia, station.nameEn)
   const lineColor = getLineColor(station.line)
 
   if (loading) {
