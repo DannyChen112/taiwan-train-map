@@ -26,18 +26,18 @@ function StationPhoto({ station }) {
 
   if (loading) {
     return (
-      <div className="w-full h-44 flex items-center justify-center bg-[#F0E8DE]">
+      <div className="w-full h-full flex items-center justify-center bg-[#F0E8DE]">
         <span className="text-[#8C7B75] text-sm">載入照片中...</span>
       </div>
     )
   }
 
   if (photo) {
-    return <img src={photo} alt={station.name} className="w-full h-44 object-cover" />
+    return <img src={photo} alt={station.name} className="w-full h-full object-cover" />
   }
 
   return (
-    <div className="w-full h-44 flex flex-col items-center justify-center gap-2"
+    <div className="w-full h-full flex flex-col items-center justify-center gap-2"
       style={{ background: `linear-gradient(135deg, ${lineColor}22, ${lineColor}44)` }}>
       <span className="text-4xl">🚉</span>
       <span className="text-[#3D3535] font-semibold text-base" style={{ fontFamily: 'Noto Serif TC, serif' }}>{station.name}</span>
@@ -55,12 +55,24 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
   const lastTrain = station.dailyPassengers < 200 && station.dailyPassengers > 0
 
   return (
-    <div className="absolute right-4 top-20 bottom-4 w-80 z-[999] flex flex-col">
-      <div className="bg-white/96 backdrop-blur rounded-2xl shadow-2xl border border-[#E8D5C0] flex flex-col overflow-hidden h-full">
+    <div className="fixed z-[999] flex flex-col
+      bottom-0 left-0 right-0 h-[58vh]
+      sm:bottom-4 sm:left-auto sm:right-4 sm:top-20 sm:w-80 sm:h-auto">
+
+      {/* 手機版拖曳把手 */}
+      <div className="sm:hidden flex justify-center pt-2 pb-1 bg-white rounded-t-2xl border-t border-x border-[#E8D5C0] flex-shrink-0">
+        <div className="w-10 h-1 bg-[#D5C8BE] rounded-full" />
+      </div>
+
+      <div className="bg-white/96 backdrop-blur shadow-2xl border border-[#E8D5C0] flex flex-col overflow-hidden h-full
+        rounded-b-none rounded-t-none sm:rounded-2xl
+        border-t-0 sm:border-t">
 
         {/* 車站照片 */}
-        <div className="relative flex-shrink-0 rounded-t-2xl overflow-hidden">
-          <StationPhoto station={station} />
+        <div className="relative flex-shrink-0 overflow-hidden rounded-none sm:rounded-t-2xl">
+          <div className="h-32 sm:h-44">
+            <StationPhoto station={station} />
+          </div>
           <button onClick={onClose}
             className="absolute top-3 right-3 w-8 h-8 bg-white/80 backdrop-blur rounded-full flex items-center justify-center text-[#3D3535] hover:bg-white shadow-md transition-colors text-sm z-10">
             ✕

@@ -193,13 +193,17 @@ export default function MapView({ stations, filteredIds, selectedStation, onSele
   }, [highlightGeoJSON])
 
   // FlyTo when station selected
+  // On mobile the station panel covers the bottom 58vh, so offset the target
+  // upward so the marker lands in the visible upper portion instead of behind the panel.
   useEffect(() => {
     const map = mapRef.current
     if (!map || !selectedStation) return
+    const isMobile = window.innerWidth < 640
     map.flyTo({
       center: [selectedStation.lng, selectedStation.lat],
       zoom: Math.max(map.getZoom(), 13),
-      duration: 700
+      duration: 700,
+      offset: isMobile ? [0, Math.round(window.innerHeight * 0.22)] : [0, 0]
     })
   }, [selectedStation])
 
