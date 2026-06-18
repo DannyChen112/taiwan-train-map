@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { getLineColor } from '../data/lines'
 import { useStationPhoto } from '../hooks/useStationPhoto'
+import { useWeather } from '../hooks/useWeather'
 import { DESCRIPTIONS } from '../data/descriptions'
 
 function PassengerBar({ count }) {
@@ -53,6 +54,7 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
   const lineColor = getLineColor(station.line)
   const description = DESCRIPTIONS[station.id] || `位於${station.city}的${station.type}，${station.line}上的停靠站。`
   const lastTrain = station.dailyPassengers < 200 && station.dailyPassengers > 0
+  const { weather, loading: weatherLoading } = useWeather(station.lat, station.lng)
 
   return (
     <div className="fixed z-[999] flex flex-col
@@ -132,6 +134,28 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
 
           {/* 旅客量 */}
           <PassengerBar count={station.dailyPassengers} />
+
+          {/* 即時天氣 */}
+          <div className="bg-[#FFF8EE] rounded-xl p-3 border border-[#E8D5C0]">
+            <div className="text-xs text-[#8C7B75] font-medium mb-2">即時天氣</div>
+            {weatherLoading ? (
+              <p className="text-xs text-[#8C7B75]">載入中...</p>
+            ) : weather ? (
+              <div className="flex items-center gap-3">
+                <span className="text-3xl leading-none">{weather.icon}</span>
+                <div>
+                  <div className="text-xl font-bold text-[#3D3535] leading-tight">{weather.temp}°C</div>
+                  <div className="text-xs text-[#8C7B75]">{weather.label}</div>
+                </div>
+                <div className="ml-auto text-right text-xs text-[#8C7B75] space-y-0.5">
+                  <div>濕度 {weather.humidity}%</div>
+                  <div>風速 {weather.wind} km/h</div>
+                </div>
+              </div>
+            ) : (
+              <p className="text-xs text-[#8C7B75]">無法取得天氣資料</p>
+            )}
+          </div>
 
           {/* 末班車警示 */}
           {lastTrain && (
