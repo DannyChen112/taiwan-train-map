@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { queryTrains } from '../api/tdx'
 import { LINES } from '../data/lines'
 import stations from '../data/stations.json'
@@ -10,6 +10,46 @@ const CITIES = ['基隆市','台北市','新北市','桃園市','新竹市','新
 const TRAIN_TYPE = { 1:'太魯閣', 2:'普悠瑪', 3:'自強', 4:'莒光', 5:'復興', 6:'區間', 7:'普快', 10:'區間快' }
 
 function today() { return new Date().toISOString().slice(0, 10) }
+
+function StationInput({ label, value, onChange }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+  const filtered = value.length > 0
+    ? stations.filter(s => s.name.includes(value)).slice(0, 7)
+    : []
+
+  useEffect(() => {
+    const close = (e) => { if (!ref.current?.contains(e.target)) setOpen(false) }
+    document.addEventListener('mousedown', close)
+    document.addEventListener('touchstart', close)
+    return () => { document.removeEventListener('mousedown', close); document.removeEventListener('touchstart', close) }
+  }, [])
+
+  return (
+    <div ref={ref} className="relative">
+      <label className="text-[13px] text-[#8C7B75] font-medium">{label}</label>
+      <input
+        value={value}
+        onChange={e => { onChange(e.target.value); setOpen(true) }}
+        onFocus={() => setOpen(true)}
+        placeholder={`輸入${label}名稱`}
+        className="w-full mt-1 px-3 py-2 text-[14px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors"
+      />
+      {open && filtered.length > 0 && (
+        <div className="absolute left-0 right-0 top-full mt-1 bg-white border border-[#E8D5C0] rounded-lg shadow-lg z-[1100] max-h-48 overflow-y-auto">
+          {filtered.map(s => (
+            <button key={s.id}
+              onClick={() => { onChange(s.name); setOpen(false) }}
+              className="w-full flex items-center justify-between px-3 py-2.5 text-[13px] text-[#3D3535] hover:bg-[#FFF3E8] border-b border-[#F0E6D6] last:border-0 text-left">
+              <span>{s.name}</span>
+              <span className="text-[11px] text-[#8C7B75] ml-2 flex-shrink-0">{s.line}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 function ChipGroup({ label, options, selected, onChange }) {
   return (
@@ -175,21 +215,12 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
           {/* 車程查詢 */}
           <Section title="車程查詢" expanded={trainOpen} onToggle={() => setTrainOpen(o => !o)}>
             <div className="space-y-3">
-              {[['出發站', origin, setOrigin], ['目的地', dest, setDest]].map(([label, val, set]) => (
-                <div key={label}>
-                  <label className="text-[13px] text-[#8C7B75] font-medium">{label}</label>
-                  <input value={val} onChange={e => set(e.target.value)} placeholder={`輸入${label}名稱`}
-                    className="w-full mt-1 px-3 py-2 text-[14px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors"
-                    list={`drawer-stations-${label}`} />
-                  <datalist id={`drawer-stations-${label}`}>
-                    {stations.map(s => <option key={s.id} value={s.name} />)}
-                  </datalist>
-                </div>
-              ))}
+              <StationInput label="出發站" value={origin} onChange={setOrigin} />
+              <StationInput label="目的地" value={dest} onChange={setDest} />
               <div>
                 <label className="text-[13px] text-[#8C7B75] font-medium">日期</label>
                 <input type="date" value={date} onChange={e => setDate(e.target.value)}
-                  className="w-full mt-1 px-3 py-2 text-[14px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
+                  className="w-full min-w-0 mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
               </div>
               <button onClick={handleQuery} disabled={loading}
                 className="w-full py-2.5 bg-[#E8735A] text-white rounded-xl text-[15px] font-medium hover:bg-[#D4614A] active:scale-95 transition-all disabled:opacity-50">
