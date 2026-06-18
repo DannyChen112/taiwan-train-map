@@ -173,8 +173,9 @@ export default function MapView({ stations, filteredIds, selectedStation, onSele
     else map.once('load', apply)
   }, [highlightGeoJSON])
 
-  // FlyTo when station selected
-  // On mobile: center horizontally, place station at upper-1/3 of screen (offset = h/6 downward)
+  // FlyTo when station selected.
+  // On mobile: use padding so station lands at upper 1/3 of screen (padding.bottom = h/3
+  // shrinks effective viewport to top 2/3; its center = h/3 from top of screen).
   useEffect(() => {
     const map = mapRef.current
     if (!map || !selectedStation) return
@@ -183,7 +184,9 @@ export default function MapView({ stations, filteredIds, selectedStation, onSele
       center: [selectedStation.lng, selectedStation.lat],
       zoom: Math.max(map.getZoom(), 13),
       duration: 700,
-      offset: isMobile ? [0, Math.round(window.innerHeight / 6)] : [0, 0]
+      padding: isMobile
+        ? { top: 0, bottom: Math.round(window.innerHeight / 3), left: 0, right: 0 }
+        : { top: 0, bottom: 0, left: 0, right: 0 }
     })
   }, [selectedStation])
 
