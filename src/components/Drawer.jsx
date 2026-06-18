@@ -127,7 +127,14 @@ function StationList({ ids, allStations, onSelectStation, emptyMsg }) {
   )
 }
 
-export default function Drawer({ open, onClose, filters, onFiltersChange, onHighlightPath, onRandomExplore, favorites, visited, onSelectStation }) {
+function calcMins(dep, arr) {
+  const [dh, dm] = dep.split(':').map(Number)
+  const [ah, am] = arr.split(':').map(Number)
+  const diff = (ah * 60 + am) - (dh * 60 + dm)
+  return diff < 0 ? diff + 24 * 60 : diff
+}
+
+export default function Drawer({ open, onClose, filters, onFiltersChange, onHighlightPath, onRandomExplore, favorites, visited, onSelectStation, onTrainResult, hasTrainResult }) {
   const [filterOpen, setFilterOpen] = useState(false)
   const [trainOpen, setTrainOpen] = useState(false)
   const [listOpen, setListOpen] = useState(false)
@@ -135,7 +142,6 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
   const [origin, setOrigin] = useState('')
   const [dest, setDest] = useState('')
   const [date, setDate] = useState(today())
-  const [results, setResults] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
@@ -145,15 +151,36 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
     filters.passengerLevel !== 'all' ? 1 : 0,
   ].reduce((a, b) => a + b, 0)
 
+  const handleClear = () => {
+    setOrigin(''); setDest(''); setDate(today()); setError('')
+    onTrainResult(null)
+  }
+
   const handleQuery = async () => {
     const orig = stations.find(s => s.name === origin)
     const dst = stations.find(s => s.name === dest)
     if (!orig || !dst) { setError('請輸入正確的車站名稱'); return }
-    setLoading(true); setError(''); setResults(null)
+    setLoading(true); setError('')
     try {
       const data = await queryTrains(orig.id, dst.id, date)
-      setResults(data)
+      const durations = data
+        .map(t => {
+          const stops = t.StopTimes
+          if (!stops || stops.length < 2) return null
+          const dep = stops[0]?.DepartureTime
+          const arr = stops[stops.length - 1]?.ArrivalTime
+          if (!dep || !arr) return null
+          return calcMins(dep, arr)
+        })
+        .filter(d => d !== null && d > 0)
       onHighlightPath(orig, dst)
+      onTrainResult({
+        origin: orig, dest: dst,
+        minMins: durations.length ? Math.min(...durations) : 0,
+        maxMins: durations.length ? Math.max(...durations) : 0,
+        count: data.length,
+      })
+      onClose()
     } catch {
       setError('查詢失敗，請確認網路連線或稍後再試')
     } finally {
@@ -238,45 +265,22 @@ export default function Drawer({ open, onClose, filters, onFiltersChange, onHigh
               <div>
                 <label className="text-[13px] text-[#8C7B75] font-medium">日期</label>
                 <input type="date" value={date} onChange={e => setDate(e.target.value)}
-                  className="w-[80%] min-w-0 mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
+                  className="w-full mt-1 px-3 py-2 text-[13px] bg-white border border-[#E8D5C0] rounded-lg outline-none focus:border-[#E8735A] transition-colors" />
               </div>
-              <button onClick={handleQuery} disabled={loading}
-                className="w-full py-2.5 bg-[#E8735A] text-white rounded-xl text-[15px] font-medium hover:bg-[#D4614A] active:scale-95 transition-all disabled:opacity-50">
-                {loading ? '查詢中...' : '查詢班次'}
-              </button>
+              <div className="flex gap-2">
+                <button onClick={handleQuery} disabled={loading}
+                  className="flex-1 py-2.5 bg-[#E8735A] text-white rounded-xl text-[14px] font-medium hover:bg-[#D4614A] active:scale-95 transition-all disabled:opacity-50">
+                  {loading ? '查詢中...' : '查詢'}
+                </button>
+                {(origin || dest || hasTrainResult) && (
+                  <button onClick={handleClear}
+                    className="px-4 py-2.5 rounded-xl text-[14px] border border-[#E8D5C0] text-[#8C7B75] hover:border-[#E8735A] hover:text-[#E8735A] transition-all">
+                    清除
+                  </button>
+                )}
+              </div>
             </div>
-
             {error && <p className="mt-3 text-[13px] text-[#E8735A] text-center">{error}</p>}
-
-            {results !== null && (
-              <div className="mt-3 space-y-2">
-                {results.length === 0 ? (
-                  <div className="text-center py-3">
-                    <p className="text-[14px] text-[#8C7B75]">此區間無直達班次</p>
-                    <a href="https://tip.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime"
-                      target="_blank" rel="noopener noreferrer"
-                      className="inline-block mt-1.5 text-[13px] text-[#E8735A] hover:underline">查看台鐵完整時刻 →</a>
-                  </div>
-                ) : results.slice(0, 10).map((t, i) => {
-                  const info = t.TrainInfo
-                  const stops = t.StopTimes
-                  if (!info || !stops) return null
-                  return (
-                    <div key={i} className="bg-[#FFF8EE] rounded-xl p-2.5 border border-[#E8D5C0]">
-                      <div className="flex items-center justify-between mb-1">
-                        <span className="text-[13px] font-semibold text-[#E8735A]">{TRAIN_TYPE[info.TrainTypeCode] || info.TrainTypeName || '列車'}</span>
-                        <span className="text-[12px] text-[#8C7B75]">#{info.TrainNo}</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-[15px] font-bold text-[#3D3535]">{stops[0]?.DepartureTime || '—'}</span>
-                        <span className="flex-1 text-center text-[12px] text-[#8C7B75]">→</span>
-                        <span className="text-[15px] font-bold text-[#3D3535]">{stops[stops.length - 1]?.ArrivalTime || '—'}</span>
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
-            )}
           </Section>
 
         </div>

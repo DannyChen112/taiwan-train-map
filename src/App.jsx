@@ -3,6 +3,7 @@ import MapView from './components/MapView'
 import SearchBar from './components/SearchBar'
 import StationPanel from './components/StationPanel'
 import Drawer from './components/Drawer'
+import TrainResult from './components/TrainResult'
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { getRoutePath } from './data/lines'
 import allStations from './data/stations.json'
@@ -28,6 +29,12 @@ export default function App() {
   const [filters, setFilters] = useState(DEFAULT_FILTERS)
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [highlightPath, setHighlightPath] = useState(null)
+  const [trainResult, setTrainResult] = useState(null)
+
+  const handleTrainResult = (result) => {
+    setTrainResult(result)
+    if (!result) setHighlightPath(null)
+  }
 
   const [favorites, setFavorites] = useLocalStorage('tw-train-favorites', [])
   const [visited, setVisited] = useLocalStorage('tw-train-visited', [])
@@ -102,7 +109,12 @@ export default function App() {
         favorites={favorites}
         visited={visited}
         onSelectStation={handleSelectStation}
+        onTrainResult={handleTrainResult}
+        hasTrainResult={!!trainResult}
       />
+
+      {/* 車程查詢結果卡 */}
+      <TrainResult result={trainResult} onClose={() => handleTrainResult(null)} />
 
       {/* 車站資訊面板 */}
       {selectedStation && (
