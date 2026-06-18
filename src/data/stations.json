@@ -1,0 +1,5138 @@
+[
+  {
+    "id": "0900",
+    "name": "基隆",
+    "nameEn": "Keelung",
+    "line": "縱貫線",
+    "city": "基隆市",
+    "lat": 25.13191,
+    "lng": 121.73837,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 8200,
+    "altitude": 5,
+    "builtEra": "日治時期",
+    "tags": [
+      "海港城市",
+      "終點站",
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/基隆車站",
+      "googleMaps": "https://maps.google.com/?q=基隆車站"
+    }
+  },
+  {
+    "id": "0910",
+    "name": "三坑",
+    "nameEn": "Sankeng",
+    "line": "縱貫線",
+    "city": "基隆市",
+    "lat": 25.12305,
+    "lng": 121.74202,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 80,
+    "altitude": 8,
+    "builtEra": "日治時期",
+    "tags": [
+      "小站",
+      "隱密"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/三坑車站",
+      "googleMaps": "https://maps.google.com/?q=三坑車站"
+    }
+  },
+  {
+    "id": "0920",
+    "name": "八堵",
+    "nameEn": "Badu",
+    "line": "縱貫線",
+    "city": "基隆市",
+    "lat": 25.10838,
+    "lng": 121.72904,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [
+      "轉乘站",
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/八堵車站",
+      "googleMaps": "https://maps.google.com/?q=八堵車站"
+    }
+  },
+  {
+    "id": "0930",
+    "name": "七堵",
+    "nameEn": "Qidu",
+    "line": "縱貫線",
+    "city": "基隆市",
+    "lat": 25.09294,
+    "lng": 121.71415,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 15,
+    "builtEra": "日治時期",
+    "tags": [
+      "調車場"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/七堵車站",
+      "googleMaps": "https://maps.google.com/?q=七堵車站"
+    }
+  },
+  {
+    "id": "0940",
+    "name": "百福",
+    "nameEn": "Baifu",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 25.07795,
+    "lng": 121.69379,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 150,
+    "altitude": 18,
+    "builtEra": "現代",
+    "tags": [
+      "小站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/百福車站",
+      "googleMaps": "https://maps.google.com/?q=百福車站"
+    }
+  },
+  {
+    "id": "0950",
+    "name": "五堵",
+    "nameEn": "Wudu",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 25.07799,
+    "lng": 121.66758,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 900,
+    "altitude": 20,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/五堵車站",
+      "googleMaps": "https://maps.google.com/?q=五堵車站"
+    }
+  },
+  {
+    "id": "0960",
+    "name": "汐止",
+    "nameEn": "Xizhi",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 25.0679,
+    "lng": 121.66113,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 5800,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/汐止車站",
+      "googleMaps": "https://maps.google.com/?q=汐止車站"
+    }
+  },
+  {
+    "id": "0970",
+    "name": "汐科",
+    "nameEn": "Xike",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 25.06406,
+    "lng": 121.65233,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3200,
+    "altitude": 8,
+    "builtEra": "現代",
+    "tags": [
+      "科學園區"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/汐科車站",
+      "googleMaps": "https://maps.google.com/?q=汐科車站"
+    }
+  },
+  {
+    "id": "0980",
+    "name": "南港",
+    "nameEn": "Nangang",
+    "line": "縱貫線",
+    "city": "台北市",
+    "lat": 25.05348,
+    "lng": 121.60706,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 18000,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [
+      "高鐵轉乘",
+      "捷運轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南港車站",
+      "googleMaps": "https://maps.google.com/?q=南港車站"
+    }
+  },
+  {
+    "id": "0990",
+    "name": "松山",
+    "nameEn": "Songshan",
+    "line": "縱貫線",
+    "city": "台北市",
+    "lat": 25.04927,
+    "lng": 121.57906,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 12000,
+    "altitude": 5,
+    "builtEra": "日治時期",
+    "tags": [
+      "捷運轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/松山車站",
+      "googleMaps": "https://maps.google.com/?q=松山車站"
+    }
+  },
+  {
+    "id": "1000",
+    "name": "台北",
+    "nameEn": "Taipei",
+    "line": "縱貫線",
+    "city": "台北市",
+    "lat": 25.04775,
+    "lng": 121.51711,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 120000,
+    "altitude": 10,
+    "builtEra": "現代",
+    "tags": [
+      "大站",
+      "高鐵轉乘",
+      "捷運轉乘",
+      "主要樞紐"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/台北車站",
+      "googleMaps": "https://maps.google.com/?q=台北車站"
+    }
+  },
+  {
+    "id": "1010",
+    "name": "萬華",
+    "nameEn": "Wanhua",
+    "line": "縱貫線",
+    "city": "台北市",
+    "lat": 25.03339,
+    "lng": 121.49996,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 9000,
+    "altitude": 5,
+    "builtEra": "日治時期",
+    "tags": [
+      "老城區",
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/萬華車站",
+      "googleMaps": "https://maps.google.com/?q=萬華車站"
+    }
+  },
+  {
+    "id": "1020",
+    "name": "板橋",
+    "nameEn": "Banqiao",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 25.01434,
+    "lng": 121.46377,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 55000,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [
+      "高鐵轉乘",
+      "捷運轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/板橋車站",
+      "googleMaps": "https://maps.google.com/?q=板橋車站"
+    }
+  },
+  {
+    "id": "1030",
+    "name": "浮洲",
+    "nameEn": "Fuzhou",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 25.00419,
+    "lng": 121.44477,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/浮洲車站",
+      "googleMaps": "https://maps.google.com/?q=浮洲車站"
+    }
+  },
+  {
+    "id": "1040",
+    "name": "樹林",
+    "nameEn": "Shulin",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 24.99123,
+    "lng": 121.42442,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 14000,
+    "altitude": 20,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/樹林車站",
+      "googleMaps": "https://maps.google.com/?q=樹林車站"
+    }
+  },
+  {
+    "id": "1050",
+    "name": "南樹林",
+    "nameEn": "South Shulin",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 24.98044,
+    "lng": 121.40884,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南樹林車站",
+      "googleMaps": "https://maps.google.com/?q=南樹林車站"
+    }
+  },
+  {
+    "id": "1060",
+    "name": "山佳",
+    "nameEn": "Shanjia",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 24.97273,
+    "lng": 121.39254,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2800,
+    "altitude": 30,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "歷史車站",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/山佳車站",
+      "googleMaps": "https://maps.google.com/?q=山佳車站"
+    }
+  },
+  {
+    "id": "1070",
+    "name": "鶯歌",
+    "nameEn": "Yingge",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 24.95455,
+    "lng": 121.35517,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 7500,
+    "altitude": 35,
+    "builtEra": "日治時期",
+    "tags": [
+      "陶瓷老街",
+      "觀光"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/鶯歌車站",
+      "googleMaps": "https://maps.google.com/?q=鶯歌車站"
+    }
+  },
+  {
+    "id": "1075",
+    "name": "鳳鳴",
+    "nameEn": "Fengming",
+    "line": "縱貫線",
+    "city": "新北市",
+    "lat": 24.97268,
+    "lng": 121.33658,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/鳳鳴車站",
+      "googleMaps": "https://maps.google.com/?q=鳳鳴車站"
+    }
+  },
+  {
+    "id": "1080",
+    "name": "桃園",
+    "nameEn": "Taoyuan",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.98888,
+    "lng": 121.31449,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 25000,
+    "altitude": 120,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/桃園車站",
+      "googleMaps": "https://maps.google.com/?q=桃園車站"
+    }
+  },
+  {
+    "id": "1090",
+    "name": "內壢",
+    "nameEn": "Neili",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.97281,
+    "lng": 121.25826,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/內壢車站",
+      "googleMaps": "https://maps.google.com/?q=內壢車站"
+    }
+  },
+  {
+    "id": "1100",
+    "name": "中壢",
+    "nameEn": "Zhongli_Taoyuan",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.95374,
+    "lng": 121.22589,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 32000,
+    "altitude": 145,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/中壢車站",
+      "googleMaps": "https://maps.google.com/?q=中壢車站"
+    }
+  },
+  {
+    "id": "1110",
+    "name": "埔心",
+    "nameEn": "Puxin",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.91939,
+    "lng": 121.18363,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/埔心車站",
+      "googleMaps": "https://maps.google.com/?q=埔心車站"
+    }
+  },
+  {
+    "id": "1120",
+    "name": "楊梅",
+    "nameEn": "Yangmei",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.91427,
+    "lng": 121.14637,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 6500,
+    "altitude": 170,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/楊梅車站",
+      "googleMaps": "https://maps.google.com/?q=楊梅車站"
+    }
+  },
+  {
+    "id": "1130",
+    "name": "富岡",
+    "nameEn": "Fugang",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.93436,
+    "lng": 121.08309,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 185,
+    "builtEra": "日治時期",
+    "tags": [
+      "小鎮"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/富岡車站",
+      "googleMaps": "https://maps.google.com/?q=富岡車站"
+    }
+  },
+  {
+    "id": "1140",
+    "name": "新富",
+    "nameEn": "Xinfu",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.93109,
+    "lng": 121.06751,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 120,
+    "altitude": 195,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新富車站",
+      "googleMaps": "https://maps.google.com/?q=新富車站"
+    }
+  },
+  {
+    "id": "1150",
+    "name": "北湖",
+    "nameEn": "Beihu",
+    "line": "縱貫線",
+    "city": "桃園市",
+    "lat": 24.92218,
+    "lng": 121.05575,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 90,
+    "altitude": 200,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/北湖車站",
+      "googleMaps": "https://maps.google.com/?q=北湖車站"
+    }
+  },
+  {
+    "id": "1160",
+    "name": "湖口",
+    "nameEn": "Hukou",
+    "line": "縱貫線",
+    "city": "新竹縣",
+    "lat": 24.90303,
+    "lng": 121.04412,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1800,
+    "altitude": 210,
+    "builtEra": "日治時期",
+    "tags": [
+      "老街"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/湖口車站",
+      "googleMaps": "https://maps.google.com/?q=湖口車站"
+    }
+  },
+  {
+    "id": "1170",
+    "name": "新豐",
+    "nameEn": "Xinfeng",
+    "line": "縱貫線",
+    "city": "新竹縣",
+    "lat": 24.86939,
+    "lng": 120.99626,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2300,
+    "altitude": 25,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新豐車站",
+      "googleMaps": "https://maps.google.com/?q=新豐車站"
+    }
+  },
+  {
+    "id": "1180",
+    "name": "竹北",
+    "nameEn": "Zhubei",
+    "line": "縱貫線",
+    "city": "新竹縣",
+    "lat": 24.83919,
+    "lng": 121.00946,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 9500,
+    "altitude": 30,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/竹北車站",
+      "googleMaps": "https://maps.google.com/?q=竹北車站"
+    }
+  },
+  {
+    "id": "1190",
+    "name": "北新竹",
+    "nameEn": "North Hsinchu",
+    "line": "縱貫線",
+    "city": "新竹市",
+    "lat": 24.80875,
+    "lng": 120.98381,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/北新竹車站",
+      "googleMaps": "https://maps.google.com/?q=北新竹車站"
+    }
+  },
+  {
+    "id": "1191",
+    "name": "千甲",
+    "nameEn": "Qianjia",
+    "line": "內灣線",
+    "city": "新竹市",
+    "lat": 24.80657,
+    "lng": 121.0034,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/千甲車站",
+      "googleMaps": "https://maps.google.com/?q=千甲車站"
+    }
+  },
+  {
+    "id": "1192",
+    "name": "新莊",
+    "nameEn": "Xinzhuang",
+    "line": "内灣線",
+    "city": "新竹市",
+    "lat": 24.78811,
+    "lng": 121.02196,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新莊車站",
+      "googleMaps": "https://maps.google.com/?q=新莊車站"
+    }
+  },
+  {
+    "id": "1193",
+    "name": "竹中",
+    "nameEn": "Zhuzhong",
+    "line": "六家線",
+    "city": "新竹縣",
+    "lat": 24.78145,
+    "lng": 121.03141,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 35,
+    "builtEra": "現代",
+    "tags": [
+      "六家線",
+      "高鐵轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/竹中車站",
+      "googleMaps": "https://maps.google.com/?q=竹中車站"
+    }
+  },
+  {
+    "id": "1194",
+    "name": "六家",
+    "nameEn": "Liujia",
+    "line": "六家線",
+    "city": "新竹縣",
+    "lat": 24.80766,
+    "lng": 121.03941,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 850,
+    "altitude": 40,
+    "builtEra": "現代",
+    "tags": [
+      "六家線",
+      "終點站",
+      "高鐵"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/六家車站",
+      "googleMaps": "https://maps.google.com/?q=六家車站"
+    }
+  },
+  {
+    "id": "1201",
+    "name": "上員",
+    "nameEn": "Shangyuan",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.77776,
+    "lng": 121.05582,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/上員車站",
+      "googleMaps": "https://maps.google.com/?q=上員車站"
+    }
+  },
+  {
+    "id": "1202",
+    "name": "榮華",
+    "nameEn": "Ronghua",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.74839,
+    "lng": 121.08319,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/榮華車站",
+      "googleMaps": "https://maps.google.com/?q=榮華車站"
+    }
+  },
+  {
+    "id": "1203",
+    "name": "竹東",
+    "nameEn": "Zhudong",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.73823,
+    "lng": 121.09472,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/竹東車站",
+      "googleMaps": "https://maps.google.com/?q=竹東車站"
+    }
+  },
+  {
+    "id": "1204",
+    "name": "橫山",
+    "nameEn": "Hengshan",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.72041,
+    "lng": 121.11772,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/橫山車站",
+      "googleMaps": "https://maps.google.com/?q=橫山車站"
+    }
+  },
+  {
+    "id": "1205",
+    "name": "九讚頭",
+    "nameEn": "Jiuzantou",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.72062,
+    "lng": 121.13622,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/九讚頭車站",
+      "googleMaps": "https://maps.google.com/?q=九讚頭車站"
+    }
+  },
+  {
+    "id": "1206",
+    "name": "合興",
+    "nameEn": "Hexing",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.71667,
+    "lng": 121.15437,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/合興車站",
+      "googleMaps": "https://maps.google.com/?q=合興車站"
+    }
+  },
+  {
+    "id": "1207",
+    "name": "富貴",
+    "nameEn": "Fugui",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.71551,
+    "lng": 121.16743,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/富貴車站",
+      "googleMaps": "https://maps.google.com/?q=富貴車站"
+    }
+  },
+  {
+    "id": "1208",
+    "name": "內灣",
+    "nameEn": "Neiwan",
+    "line": "内灣線",
+    "city": "新竹縣",
+    "lat": 24.70535,
+    "lng": 121.18255,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/內灣車站",
+      "googleMaps": "https://maps.google.com/?q=內灣車站"
+    }
+  },
+  {
+    "id": "1210",
+    "name": "新竹",
+    "nameEn": "Hsinchu",
+    "line": "縱貫線",
+    "city": "新竹市",
+    "lat": 24.80157,
+    "lng": 120.97157,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 28000,
+    "altitude": 18,
+    "builtEra": "日治時期",
+    "tags": [
+      "歷史車站",
+      "木造站房",
+      "古蹟",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新竹車站",
+      "googleMaps": "https://maps.google.com/?q=新竹車站"
+    }
+  },
+  {
+    "id": "1220",
+    "name": "三姓橋",
+    "nameEn": "Sanxingqiao",
+    "line": "縱貫線",
+    "city": "新竹市",
+    "lat": 24.78731,
+    "lng": 120.92844,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 60,
+    "altitude": 15,
+    "builtEra": "現代",
+    "tags": [
+      "冷門",
+      "小站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/三姓橋車站",
+      "googleMaps": "https://maps.google.com/?q=三姓橋車站"
+    }
+  },
+  {
+    "id": "1230",
+    "name": "香山",
+    "nameEn": "Xiangshan",
+    "line": "縱貫線",
+    "city": "新竹市",
+    "lat": 24.76311,
+    "lng": 120.91388,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1500,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [
+      "海景",
+      "濕地"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/香山車站",
+      "googleMaps": "https://maps.google.com/?q=香山車站"
+    }
+  },
+  {
+    "id": "1240",
+    "name": "崎頂",
+    "nameEn": "Qiding",
+    "line": "縱貫線",
+    "city": "苗栗縣",
+    "lat": 24.72291,
+    "lng": 120.87183,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 45,
+    "altitude": 20,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "適合拍照",
+      "冷門",
+      "海景"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/崎頂車站",
+      "googleMaps": "https://maps.google.com/?q=崎頂車站"
+    }
+  },
+  {
+    "id": "1250",
+    "name": "竹南",
+    "nameEn": "Zhunan",
+    "line": "縱貫線",
+    "city": "苗栗縣",
+    "lat": 24.68654,
+    "lng": 120.88041,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 7200,
+    "altitude": 18,
+    "builtEra": "日治時期",
+    "tags": [
+      "轉乘站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/竹南車站",
+      "googleMaps": "https://maps.google.com/?q=竹南車站"
+    }
+  },
+  {
+    "id": "1320",
+    "name": "泰安(舊)",
+    "nameEn": "Taian (Old)",
+    "line": "山線",
+    "city": "苗栗縣",
+    "lat": 24.4267,
+    "lng": 120.7578,
+    "type": "廢站",
+    "status": "廢站",
+    "dailyPassengers": 0,
+    "altitude": 350,
+    "builtEra": "日治時期",
+    "tags": [
+      "廢站",
+      "山線",
+      "歷史",
+      "探索"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/舊泰安車站",
+      "googleMaps": "https://maps.google.com/?q=舊泰安車站"
+    }
+  },
+  {
+    "id": "2040",
+    "name": "多良",
+    "nameEn": "Duoliang",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.3528,
+    "lng": 120.8567,
+    "type": "廢站",
+    "status": "廢站",
+    "dailyPassengers": 0,
+    "altitude": 32,
+    "builtEra": "現代",
+    "tags": [
+      "廢站",
+      "全台最美車站",
+      "海景",
+      "適合拍照",
+      "極推薦",
+      "南迴線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/多良車站",
+      "googleMaps": "https://maps.google.com/?q=多良車站"
+    }
+  },
+  {
+    "id": "2110",
+    "name": "談文",
+    "nameEn": "Tanwen",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.65641,
+    "lng": 120.85825,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 35,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "海線",
+      "極小眾",
+      "適合拍照",
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/談文車站",
+      "googleMaps": "https://maps.google.com/?q=談文車站"
+    }
+  },
+  {
+    "id": "2120",
+    "name": "大山",
+    "nameEn": "Dashan",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.64565,
+    "lng": 120.80376,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 40,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "海線",
+      "極小眾",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大山車站",
+      "googleMaps": "https://maps.google.com/?q=大山車站"
+    }
+  },
+  {
+    "id": "2130",
+    "name": "後龍",
+    "nameEn": "Houlong",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.61621,
+    "lng": 120.78731,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1800,
+    "altitude": 15,
+    "builtEra": "日治時期",
+    "tags": [
+      "海線",
+      "小鎮"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/後龍車站",
+      "googleMaps": "https://maps.google.com/?q=後龍車站"
+    }
+  },
+  {
+    "id": "2140",
+    "name": "龍港",
+    "nameEn": "Longgang",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.61169,
+    "lng": 120.75812,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 30,
+    "altitude": 8,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "海線",
+      "極小眾",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/龍港車站",
+      "googleMaps": "https://maps.google.com/?q=龍港車站"
+    }
+  },
+  {
+    "id": "2150",
+    "name": "白沙屯",
+    "nameEn": "Baishatun",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.56481,
+    "lng": 120.70824,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 55,
+    "altitude": 8,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "海線",
+      "媽祖進香",
+      "適合拍照",
+      "小眾"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/白沙屯車站",
+      "googleMaps": "https://maps.google.com/?q=白沙屯車站"
+    }
+  },
+  {
+    "id": "2160",
+    "name": "新埔",
+    "nameEn": "Xinpu",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.54018,
+    "lng": 120.69518,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 25,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "海線",
+      "極小眾"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新埔車站_(苗栗縣)",
+      "googleMaps": "https://maps.google.com/?q=新埔車站苗栗"
+    }
+  },
+  {
+    "id": "2170",
+    "name": "通霄",
+    "nameEn": "Tongxiao",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.49141,
+    "lng": 120.67843,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1600,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [
+      "海線",
+      "小鎮"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/通霄車站",
+      "googleMaps": "https://maps.google.com/?q=通霄車站"
+    }
+  },
+  {
+    "id": "2180",
+    "name": "苑裡",
+    "nameEn": "Yuanli",
+    "line": "海線",
+    "city": "苗栗縣",
+    "lat": 24.44344,
+    "lng": 120.65146,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 15,
+    "builtEra": "日治時期",
+    "tags": [
+      "海線",
+      "藺草工藝"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/苑裡車站",
+      "googleMaps": "https://maps.google.com/?q=苑裡車站"
+    }
+  },
+  {
+    "id": "2190",
+    "name": "日南",
+    "nameEn": "Rinan",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.37815,
+    "lng": 120.65412,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/日南車站",
+      "googleMaps": "https://maps.google.com/?q=日南車站"
+    }
+  },
+  {
+    "id": "2200",
+    "name": "大甲",
+    "nameEn": "Dajia",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.34448,
+    "lng": 120.62702,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大甲車站",
+      "googleMaps": "https://maps.google.com/?q=大甲車站"
+    }
+  },
+  {
+    "id": "2210",
+    "name": "台中港",
+    "nameEn": "Taichung Port",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.30441,
+    "lng": 120.60231,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/台中港車站",
+      "googleMaps": "https://maps.google.com/?q=台中港車站"
+    }
+  },
+  {
+    "id": "2220",
+    "name": "清水",
+    "nameEn": "Qingshui",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.26364,
+    "lng": 120.56918,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/清水車站",
+      "googleMaps": "https://maps.google.com/?q=清水車站"
+    }
+  },
+  {
+    "id": "2230",
+    "name": "沙鹿",
+    "nameEn": "Shalu",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.23702,
+    "lng": 120.55752,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/沙鹿車站",
+      "googleMaps": "https://maps.google.com/?q=沙鹿車站"
+    }
+  },
+  {
+    "id": "2240",
+    "name": "龍井",
+    "nameEn": "Longjing",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.19748,
+    "lng": 120.54335,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/龍井車站",
+      "googleMaps": "https://maps.google.com/?q=龍井車站"
+    }
+  },
+  {
+    "id": "2250",
+    "name": "大肚",
+    "nameEn": "Dadu",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.15417,
+    "lng": 120.54249,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大肚車站",
+      "googleMaps": "https://maps.google.com/?q=大肚車站"
+    }
+  },
+  {
+    "id": "2260",
+    "name": "追分",
+    "nameEn": "Zhuifen",
+    "line": "海線",
+    "city": "台中市",
+    "lat": 24.12051,
+    "lng": 120.57018,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/追分車站",
+      "googleMaps": "https://maps.google.com/?q=追分車站"
+    }
+  },
+  {
+    "id": "3140",
+    "name": "造橋",
+    "nameEn": "Zaoqiao",
+    "line": "山線",
+    "city": "苗栗縣",
+    "lat": 24.64186,
+    "lng": 120.86721,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 85,
+    "altitude": 65,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線",
+      "小站",
+      "古樸"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/造橋車站",
+      "googleMaps": "https://maps.google.com/?q=造橋車站"
+    }
+  },
+  {
+    "id": "3150",
+    "name": "豐富",
+    "nameEn": "Fengfu",
+    "line": "山線",
+    "city": "苗栗縣",
+    "lat": 24.60429,
+    "lng": 120.82637,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/豐富車站",
+      "googleMaps": "https://maps.google.com/?q=豐富車站"
+    }
+  },
+  {
+    "id": "3160",
+    "name": "苗栗",
+    "nameEn": "Miaoli",
+    "line": "山線",
+    "city": "苗栗縣",
+    "lat": 24.57001,
+    "lng": 120.82233,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 8500,
+    "altitude": 98,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/苗栗車站",
+      "googleMaps": "https://maps.google.com/?q=苗栗車站"
+    }
+  },
+  {
+    "id": "3170",
+    "name": "南勢",
+    "nameEn": "Nanshi",
+    "line": "山線",
+    "city": "苗栗縣",
+    "lat": 24.52246,
+    "lng": 120.79154,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 70,
+    "altitude": 110,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線",
+      "小站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南勢車站_(苗栗縣)",
+      "googleMaps": "https://maps.google.com/?q=南勢車站苗栗"
+    }
+  },
+  {
+    "id": "3180",
+    "name": "銅鑼",
+    "nameEn": "Tongluo",
+    "line": "山線",
+    "city": "苗栗縣",
+    "lat": 24.48634,
+    "lng": 120.78617,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1400,
+    "altitude": 130,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線",
+      "客家文化"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/銅鑼車站",
+      "googleMaps": "https://maps.google.com/?q=銅鑼車站"
+    }
+  },
+  {
+    "id": "3190",
+    "name": "三義",
+    "nameEn": "Sanyi",
+    "line": "山線",
+    "city": "苗栗縣",
+    "lat": 24.42066,
+    "lng": 120.77393,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1800,
+    "altitude": 220,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線",
+      "木雕",
+      "勝興舊站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/三義車站",
+      "googleMaps": "https://maps.google.com/?q=三義車站"
+    }
+  },
+  {
+    "id": "3210",
+    "name": "泰安",
+    "nameEn": "Tai'an",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.33146,
+    "lng": 120.74181,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/泰安車站",
+      "googleMaps": "https://maps.google.com/?q=泰安車站"
+    }
+  },
+  {
+    "id": "3220",
+    "name": "后里",
+    "nameEn": "Houli",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.30933,
+    "lng": 120.73288,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3200,
+    "altitude": 280,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線",
+      "花卉"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/后里車站",
+      "googleMaps": "https://maps.google.com/?q=后里車站"
+    }
+  },
+  {
+    "id": "3230",
+    "name": "豐原",
+    "nameEn": "Fengyuan",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.25438,
+    "lng": 120.72374,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 15000,
+    "altitude": 125,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/豐原車站",
+      "googleMaps": "https://maps.google.com/?q=豐原車站"
+    }
+  },
+  {
+    "id": "3240",
+    "name": "栗林",
+    "nameEn": "Lilin",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.23461,
+    "lng": 120.7106,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 65,
+    "altitude": 105,
+    "builtEra": "現代",
+    "tags": [
+      "山線",
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/栗林車站",
+      "googleMaps": "https://maps.google.com/?q=栗林車站"
+    }
+  },
+  {
+    "id": "3250",
+    "name": "潭子",
+    "nameEn": "Tanzi",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.21214,
+    "lng": 120.70564,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 6200,
+    "altitude": 90,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/潭子車站",
+      "googleMaps": "https://maps.google.com/?q=潭子車站"
+    }
+  },
+  {
+    "id": "3260",
+    "name": "頭家厝",
+    "nameEn": "Toujiacuo",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.19572,
+    "lng": 120.70398,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/頭家厝車站",
+      "googleMaps": "https://maps.google.com/?q=頭家厝車站"
+    }
+  },
+  {
+    "id": "3270",
+    "name": "松竹",
+    "nameEn": "Songzhu",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.18035,
+    "lng": 120.70193,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/松竹車站",
+      "googleMaps": "https://maps.google.com/?q=松竹車站"
+    }
+  },
+  {
+    "id": "3280",
+    "name": "太原",
+    "nameEn": "Taiyuan",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.16449,
+    "lng": 120.69988,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 4800,
+    "altitude": 75,
+    "builtEra": "現代",
+    "tags": [
+      "山線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/太原車站",
+      "googleMaps": "https://maps.google.com/?q=太原車站"
+    }
+  },
+  {
+    "id": "3290",
+    "name": "精武",
+    "nameEn": "Jingwu",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.14887,
+    "lng": 120.69784,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/精武車站",
+      "googleMaps": "https://maps.google.com/?q=精武車站"
+    }
+  },
+  {
+    "id": "3300",
+    "name": "台中",
+    "nameEn": "Taichung",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.13728,
+    "lng": 120.68691,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 45000,
+    "altitude": 68,
+    "builtEra": "日治時期",
+    "tags": [
+      "大站",
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/台中車站",
+      "googleMaps": "https://maps.google.com/?q=台中車站"
+    }
+  },
+  {
+    "id": "3310",
+    "name": "五權",
+    "nameEn": "Wuquan",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.12877,
+    "lng": 120.66654,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/五權車站",
+      "googleMaps": "https://maps.google.com/?q=五權車站"
+    }
+  },
+  {
+    "id": "3320",
+    "name": "大慶",
+    "nameEn": "Daqing",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.11911,
+    "lng": 120.64795,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 7500,
+    "altitude": 62,
+    "builtEra": "現代",
+    "tags": [
+      "山線",
+      "捷運轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大慶車站",
+      "googleMaps": "https://maps.google.com/?q=大慶車站"
+    }
+  },
+  {
+    "id": "3330",
+    "name": "烏日",
+    "nameEn": "Wuri",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.10867,
+    "lng": 120.62244,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 5200,
+    "altitude": 55,
+    "builtEra": "現代",
+    "tags": [
+      "山線",
+      "高鐵轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/烏日車站",
+      "googleMaps": "https://maps.google.com/?q=烏日車站"
+    }
+  },
+  {
+    "id": "3340",
+    "name": "新烏日",
+    "nameEn": "Xinwuri",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.10937,
+    "lng": 120.61421,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3800,
+    "altitude": 52,
+    "builtEra": "現代",
+    "tags": [
+      "高鐵轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新烏日車站",
+      "googleMaps": "https://maps.google.com/?q=新烏日車站"
+    }
+  },
+  {
+    "id": "3350",
+    "name": "成功",
+    "nameEn": "Chenggong",
+    "line": "山線",
+    "city": "台中市",
+    "lat": 24.11424,
+    "lng": 120.59021,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 110,
+    "altitude": 48,
+    "builtEra": "現代",
+    "tags": [
+      "山線",
+      "小站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/成功車站_(台中市)",
+      "googleMaps": "https://maps.google.com/?q=成功車站台中"
+    }
+  },
+  {
+    "id": "3360",
+    "name": "彰化",
+    "nameEn": "Changhua",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 24.08177,
+    "lng": 120.53854,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 18000,
+    "altitude": 30,
+    "builtEra": "日治時期",
+    "tags": [
+      "歷史車站",
+      "扇形車庫",
+      "古蹟",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/彰化車站",
+      "googleMaps": "https://maps.google.com/?q=彰化車站"
+    }
+  },
+  {
+    "id": "3370",
+    "name": "花壇",
+    "nameEn": "Huatan",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 24.02502,
+    "lng": 120.53742,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2400,
+    "altitude": 25,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/花壇車站",
+      "googleMaps": "https://maps.google.com/?q=花壇車站"
+    }
+  },
+  {
+    "id": "3380",
+    "name": "大村",
+    "nameEn": "Dacun",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 23.99002,
+    "lng": 120.56062,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 95,
+    "altitude": 20,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大村車站",
+      "googleMaps": "https://maps.google.com/?q=大村車站"
+    }
+  },
+  {
+    "id": "3390",
+    "name": "員林",
+    "nameEn": "Yuanlin",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 23.95947,
+    "lng": 120.56977,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 8500,
+    "altitude": 32,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/員林車站",
+      "googleMaps": "https://maps.google.com/?q=員林車站"
+    }
+  },
+  {
+    "id": "3400",
+    "name": "永靖",
+    "nameEn": "Yongjing",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 23.92808,
+    "lng": 120.57173,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/永靖車站",
+      "googleMaps": "https://maps.google.com/?q=永靖車站"
+    }
+  },
+  {
+    "id": "3410",
+    "name": "社頭",
+    "nameEn": "Shetou",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 23.89573,
+    "lng": 120.58077,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1900,
+    "altitude": 35,
+    "builtEra": "日治時期",
+    "tags": [
+      "織襪小鎮"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/社頭車站",
+      "googleMaps": "https://maps.google.com/?q=社頭車站"
+    }
+  },
+  {
+    "id": "3420",
+    "name": "田中",
+    "nameEn": "Tianzhong",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 23.85843,
+    "lng": 120.59146,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3200,
+    "altitude": 40,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/田中車站",
+      "googleMaps": "https://maps.google.com/?q=田中車站"
+    }
+  },
+  {
+    "id": "3430",
+    "name": "二水",
+    "nameEn": "Ershui",
+    "line": "縱貫線南",
+    "city": "彰化縣",
+    "lat": 23.81321,
+    "lng": 120.61805,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 55,
+    "builtEra": "日治時期",
+    "tags": [
+      "集集線起點",
+      "轉乘站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/二水車站",
+      "googleMaps": "https://maps.google.com/?q=二水車站"
+    }
+  },
+  {
+    "id": "3431",
+    "name": "源泉",
+    "nameEn": "Yuanquan",
+    "line": "集集線",
+    "city": "南投縣",
+    "lat": 23.79845,
+    "lng": 120.64211,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 60,
+    "altitude": 68,
+    "builtEra": "日治時期",
+    "tags": [
+      "集集線",
+      "小站",
+      "古樸"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/源泉車站",
+      "googleMaps": "https://maps.google.com/?q=源泉車站"
+    }
+  },
+  {
+    "id": "3432",
+    "name": "濁水",
+    "nameEn": "Zhuoshui",
+    "line": "集集線",
+    "city": "南投縣",
+    "lat": 23.83467,
+    "lng": 120.70467,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 180,
+    "altitude": 75,
+    "builtEra": "日治時期",
+    "tags": [
+      "集集線",
+      "古樸"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/濁水車站",
+      "googleMaps": "https://maps.google.com/?q=濁水車站"
+    }
+  },
+  {
+    "id": "3433",
+    "name": "龍泉",
+    "nameEn": "Longquan",
+    "line": "集集線",
+    "city": "南投縣",
+    "lat": 23.83521,
+    "lng": 120.75014,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 220,
+    "altitude": 88,
+    "builtEra": "日治時期",
+    "tags": [
+      "集集線",
+      "軍營"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/龍泉車站",
+      "googleMaps": "https://maps.google.com/?q=龍泉車站"
+    }
+  },
+  {
+    "id": "3434",
+    "name": "集集",
+    "nameEn": "Jiji",
+    "line": "集集線",
+    "city": "南投縣",
+    "lat": 23.82647,
+    "lng": 120.78495,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1800,
+    "altitude": 162,
+    "builtEra": "日治時期",
+    "tags": [
+      "集集線",
+      "木造站房",
+      "觀光",
+      "適合拍照",
+      "香蕉",
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/集集車站",
+      "googleMaps": "https://maps.google.com/?q=集集車站"
+    }
+  },
+  {
+    "id": "3435",
+    "name": "水里",
+    "nameEn": "Shuili",
+    "line": "集集線",
+    "city": "南投縣",
+    "lat": 23.81845,
+    "lng": 120.85332,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 950,
+    "altitude": 240,
+    "builtEra": "日治時期",
+    "tags": [
+      "集集線",
+      "蛇窯",
+      "日月潭轉運"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/水里車站",
+      "googleMaps": "https://maps.google.com/?q=水里車站"
+    }
+  },
+  {
+    "id": "3436",
+    "name": "車埕",
+    "nameEn": "Checheng",
+    "line": "集集線",
+    "city": "南投縣",
+    "lat": 23.83263,
+    "lng": 120.86572,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 680,
+    "altitude": 280,
+    "builtEra": "日治時期",
+    "tags": [
+      "集集線",
+      "終點站",
+      "木材廠",
+      "湖景",
+      "適合拍照",
+      "觀光"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/車埕車站",
+      "googleMaps": "https://maps.google.com/?q=車埕車站"
+    }
+  },
+  {
+    "id": "3450",
+    "name": "林內",
+    "nameEn": "Linnei",
+    "line": "縱貫線南",
+    "city": "雲林縣",
+    "lat": 23.75967,
+    "lng": 120.61499,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 60,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/林內車站",
+      "googleMaps": "https://maps.google.com/?q=林內車站"
+    }
+  },
+  {
+    "id": "3460",
+    "name": "石榴",
+    "nameEn": "Shiliu",
+    "line": "縱貫線南",
+    "city": "雲林縣",
+    "lat": 23.73167,
+    "lng": 120.57998,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 50,
+    "altitude": 38,
+    "builtEra": "日治時期",
+    "tags": [
+      "小站",
+      "冷門",
+      "古樸"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/石榴車站",
+      "googleMaps": "https://maps.google.com/?q=石榴車站"
+    }
+  },
+  {
+    "id": "3470",
+    "name": "斗六",
+    "nameEn": "Douliu",
+    "line": "縱貫線南",
+    "city": "雲林縣",
+    "lat": 23.71184,
+    "lng": 120.54099,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 7200,
+    "altitude": 35,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/斗六車站",
+      "googleMaps": "https://maps.google.com/?q=斗六車站"
+    }
+  },
+  {
+    "id": "3480",
+    "name": "斗南",
+    "nameEn": "Dounan",
+    "line": "縱貫線南",
+    "city": "雲林縣",
+    "lat": 23.67257,
+    "lng": 120.48089,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3500,
+    "altitude": 25,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/斗南車站",
+      "googleMaps": "https://maps.google.com/?q=斗南車站"
+    }
+  },
+  {
+    "id": "3490",
+    "name": "石龜",
+    "nameEn": "Shigui",
+    "line": "縱貫線南",
+    "city": "雲林縣",
+    "lat": 23.63951,
+    "lng": 120.47106,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 40,
+    "altitude": 20,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/石龜車站",
+      "googleMaps": "https://maps.google.com/?q=石龜車站"
+    }
+  },
+  {
+    "id": "4050",
+    "name": "大林",
+    "nameEn": "Dalin",
+    "line": "縱貫線南",
+    "city": "嘉義縣",
+    "lat": 23.60089,
+    "lng": 120.45597,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大林車站",
+      "googleMaps": "https://maps.google.com/?q=大林車站"
+    }
+  },
+  {
+    "id": "4060",
+    "name": "民雄",
+    "nameEn": "Minxiong",
+    "line": "縱貫線南",
+    "city": "嘉義縣",
+    "lat": 23.55522,
+    "lng": 120.43165,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/民雄車站",
+      "googleMaps": "https://maps.google.com/?q=民雄車站"
+    }
+  },
+  {
+    "id": "4070",
+    "name": "嘉北",
+    "nameEn": "Jiabei",
+    "line": "縱貫線南",
+    "city": "嘉義市",
+    "lat": 23.49981,
+    "lng": 120.44851,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/嘉北車站",
+      "googleMaps": "https://maps.google.com/?q=嘉北車站"
+    }
+  },
+  {
+    "id": "4080",
+    "name": "嘉義",
+    "nameEn": "Chiayi",
+    "line": "縱貫線南",
+    "city": "嘉義市",
+    "lat": 23.47915,
+    "lng": 120.44114,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 22000,
+    "altitude": 30,
+    "builtEra": "日治時期",
+    "tags": [
+      "大站",
+      "阿里山起點"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/嘉義車站",
+      "googleMaps": "https://maps.google.com/?q=嘉義車站"
+    }
+  },
+  {
+    "id": "4090",
+    "name": "水上",
+    "nameEn": "Shuishang",
+    "line": "縱貫線南",
+    "city": "嘉義縣",
+    "lat": 23.43398,
+    "lng": 120.39971,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 22,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/水上車站",
+      "googleMaps": "https://maps.google.com/?q=水上車站"
+    }
+  },
+  {
+    "id": "4100",
+    "name": "南靖",
+    "nameEn": "Nanjing",
+    "line": "縱貫線南",
+    "city": "嘉義縣",
+    "lat": 23.41344,
+    "lng": 120.38654,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 55,
+    "altitude": 18,
+    "builtEra": "日治時期",
+    "tags": [
+      "小站",
+      "冷門",
+      "糖廠"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南靖車站",
+      "googleMaps": "https://maps.google.com/?q=南靖車站"
+    }
+  },
+  {
+    "id": "4110",
+    "name": "後壁",
+    "nameEn": "Houbi",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.36626,
+    "lng": 120.36058,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 950,
+    "altitude": 15,
+    "builtEra": "日治時期",
+    "tags": [
+      "菁寮老街",
+      "農村風情",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/後壁車站",
+      "googleMaps": "https://maps.google.com/?q=後壁車站"
+    }
+  },
+  {
+    "id": "4120",
+    "name": "新營",
+    "nameEn": "Xinying",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.30673,
+    "lng": 120.32307,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 7800,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新營車站",
+      "googleMaps": "https://maps.google.com/?q=新營車站"
+    }
+  },
+  {
+    "id": "4130",
+    "name": "柳營",
+    "nameEn": "Liuying",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.27762,
+    "lng": 120.32252,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [
+      "牛奶故鄉"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/柳營車站",
+      "googleMaps": "https://maps.google.com/?q=柳營車站"
+    }
+  },
+  {
+    "id": "4140",
+    "name": "林鳳營",
+    "nameEn": "Linfengying",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.24259,
+    "lng": 120.32107,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1100,
+    "altitude": 8,
+    "builtEra": "日治時期",
+    "tags": [
+      "牛奶"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/林鳳營車站",
+      "googleMaps": "https://maps.google.com/?q=林鳳營車站"
+    }
+  },
+  {
+    "id": "4150",
+    "name": "隆田",
+    "nameEn": "Longtian",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.19271,
+    "lng": 120.31917,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 6,
+    "builtEra": "日治時期",
+    "tags": [
+      "烏山頭水庫"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/隆田車站",
+      "googleMaps": "https://maps.google.com/?q=隆田車站"
+    }
+  },
+  {
+    "id": "4160",
+    "name": "拔林",
+    "nameEn": "Balin",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.17284,
+    "lng": 120.32125,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 75,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/拔林車站",
+      "googleMaps": "https://maps.google.com/?q=拔林車站"
+    }
+  },
+  {
+    "id": "4170",
+    "name": "善化",
+    "nameEn": "Shanhua",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.13333,
+    "lng": 120.30653,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3800,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [
+      "糖廠"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/善化車站",
+      "googleMaps": "https://maps.google.com/?q=善化車站"
+    }
+  },
+  {
+    "id": "4180",
+    "name": "南科",
+    "nameEn": "Nanke",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.10726,
+    "lng": 120.30202,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 4500,
+    "altitude": 8,
+    "builtEra": "現代",
+    "tags": [
+      "科學園區"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南科車站",
+      "googleMaps": "https://maps.google.com/?q=南科車站"
+    }
+  },
+  {
+    "id": "4190",
+    "name": "新市",
+    "nameEn": "Xinshi",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.06823,
+    "lng": 120.29004,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2200,
+    "altitude": 8,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新市車站",
+      "googleMaps": "https://maps.google.com/?q=新市車站"
+    }
+  },
+  {
+    "id": "4200",
+    "name": "永康",
+    "nameEn": "Yongkang",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.03825,
+    "lng": 120.25347,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 5800,
+    "altitude": 6,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/永康車站",
+      "googleMaps": "https://maps.google.com/?q=永康車站"
+    }
+  },
+  {
+    "id": "4210",
+    "name": "大橋",
+    "nameEn": "Daqiao",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 23.01923,
+    "lng": 120.22429,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大橋車站",
+      "googleMaps": "https://maps.google.com/?q=大橋車站"
+    }
+  },
+  {
+    "id": "4220",
+    "name": "台南",
+    "nameEn": "Tainan",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 22.99681,
+    "lng": 120.21295,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 35000,
+    "altitude": 5,
+    "builtEra": "日治時期",
+    "tags": [
+      "大站",
+      "歷史車站",
+      "古都"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/台南車站",
+      "googleMaps": "https://maps.google.com/?q=台南車站"
+    }
+  },
+  {
+    "id": "4250",
+    "name": "保安",
+    "nameEn": "Bao'an",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 22.93296,
+    "lng": 120.23158,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1100,
+    "altitude": 4,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "歷史車站",
+      "保安宮",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/保安車站",
+      "googleMaps": "https://maps.google.com/?q=保安車站"
+    }
+  },
+  {
+    "id": "4260",
+    "name": "仁德",
+    "nameEn": "Rende",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 22.92354,
+    "lng": 120.24054,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3200,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/仁德車站",
+      "googleMaps": "https://maps.google.com/?q=仁德車站"
+    }
+  },
+  {
+    "id": "4270",
+    "name": "中洲",
+    "nameEn": "Zhongzhou",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 22.90446,
+    "lng": 120.25284,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 85,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/中洲車站_(台南市)",
+      "googleMaps": "https://maps.google.com/?q=中洲車站台南"
+    }
+  },
+  {
+    "id": "4271",
+    "name": "長榮大學",
+    "nameEn": "Chang Jung Christian University",
+    "line": "沙崙線",
+    "city": "台南市",
+    "lat": 22.90729,
+    "lng": 120.27263,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/長榮大學車站",
+      "googleMaps": "https://maps.google.com/?q=長榮大學車站"
+    }
+  },
+  {
+    "id": "4272",
+    "name": "沙崙",
+    "nameEn": "Shalun",
+    "line": "沙崙線",
+    "city": "台南市",
+    "lat": 22.92407,
+    "lng": 120.28622,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3200,
+    "altitude": 8,
+    "builtEra": "現代",
+    "tags": [
+      "沙崙線",
+      "高鐵轉乘",
+      "終點站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/沙崙車站",
+      "googleMaps": "https://maps.google.com/?q=沙崙車站"
+    }
+  },
+  {
+    "id": "4290",
+    "name": "大湖",
+    "nameEn": "Dahu",
+    "line": "縱貫線南",
+    "city": "台南市",
+    "lat": 22.87821,
+    "lng": 120.25384,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 70,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大湖車站_(台南市)",
+      "googleMaps": "https://maps.google.com/?q=大湖車站台南"
+    }
+  },
+  {
+    "id": "4300",
+    "name": "路竹",
+    "nameEn": "Luzhu",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.85404,
+    "lng": 120.26619,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 4200,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/路竹車站",
+      "googleMaps": "https://maps.google.com/?q=路竹車站"
+    }
+  },
+  {
+    "id": "4310",
+    "name": "岡山",
+    "nameEn": "Gangshan",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.79223,
+    "lng": 120.30004,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 5800,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/岡山車站",
+      "googleMaps": "https://maps.google.com/?q=岡山車站"
+    }
+  },
+  {
+    "id": "4320",
+    "name": "橋頭",
+    "nameEn": "Qiaotou",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.76098,
+    "lng": 120.31011,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2800,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [
+      "糖廠",
+      "白屋糖廠"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/橋頭車站",
+      "googleMaps": "https://maps.google.com/?q=橋頭車站"
+    }
+  },
+  {
+    "id": "4330",
+    "name": "楠梓",
+    "nameEn": "Nanzi",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.72696,
+    "lng": 120.32425,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 4200,
+    "altitude": 8,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/楠梓車站",
+      "googleMaps": "https://maps.google.com/?q=楠梓車站"
+    }
+  },
+  {
+    "id": "4340",
+    "name": "新左營",
+    "nameEn": "Xinzuoying",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.68754,
+    "lng": 120.30678,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新左營車站",
+      "googleMaps": "https://maps.google.com/?q=新左營車站"
+    }
+  },
+  {
+    "id": "4350",
+    "name": "左營",
+    "nameEn": "Zuoying",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.67445,
+    "lng": 120.29401,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 22000,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [
+      "高鐵轉乘",
+      "捷運轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/左營車站_(台灣鐵路)",
+      "googleMaps": "https://maps.google.com/?q=左營車站"
+    }
+  },
+  {
+    "id": "4360",
+    "name": "內惟",
+    "nameEn": "Neiwei",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.66589,
+    "lng": 120.28701,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/內惟車站",
+      "googleMaps": "https://maps.google.com/?q=內惟車站"
+    }
+  },
+  {
+    "id": "4370",
+    "name": "美術館",
+    "nameEn": "Museum of Fine Arts",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.65185,
+    "lng": 120.28148,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/美術館車站",
+      "googleMaps": "https://maps.google.com/?q=美術館車站"
+    }
+  },
+  {
+    "id": "4380",
+    "name": "鼓山",
+    "nameEn": "Gushan",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.64181,
+    "lng": 120.28071,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/鼓山車站",
+      "googleMaps": "https://maps.google.com/?q=鼓山車站"
+    }
+  },
+  {
+    "id": "4390",
+    "name": "三塊厝",
+    "nameEn": "Sankuaicuo",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.63931,
+    "lng": 120.29414,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/三塊厝車站",
+      "googleMaps": "https://maps.google.com/?q=三塊厝車站"
+    }
+  },
+  {
+    "id": "4400",
+    "name": "高雄",
+    "nameEn": "Kaohsiung",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.63946,
+    "lng": 120.30292,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 42000,
+    "altitude": 5,
+    "builtEra": "現代",
+    "tags": [
+      "大站",
+      "捷運轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/高雄車站",
+      "googleMaps": "https://maps.google.com/?q=高雄車站"
+    }
+  },
+  {
+    "id": "4410",
+    "name": "民族",
+    "nameEn": "Minzu",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.63879,
+    "lng": 120.31494,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/民族車站",
+      "googleMaps": "https://maps.google.com/?q=民族車站"
+    }
+  },
+  {
+    "id": "4420",
+    "name": "科工館",
+    "nameEn": "Science And Technology Museum",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.63709,
+    "lng": 120.32603,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/科工館車站",
+      "googleMaps": "https://maps.google.com/?q=科工館車站"
+    }
+  },
+  {
+    "id": "4430",
+    "name": "正義",
+    "nameEn": "Zhengyi",
+    "line": "縱貫線南",
+    "city": "高雄市",
+    "lat": 22.63425,
+    "lng": 120.34245,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/正義車站",
+      "googleMaps": "https://maps.google.com/?q=正義車站"
+    }
+  },
+  {
+    "id": "4440",
+    "name": "鳳山",
+    "nameEn": "Fongshan",
+    "line": "屏東線",
+    "city": "高雄市",
+    "lat": 22.63145,
+    "lng": 120.35745,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 8500,
+    "altitude": 8,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/鳳山車站",
+      "googleMaps": "https://maps.google.com/?q=鳳山車站"
+    }
+  },
+  {
+    "id": "4450",
+    "name": "後庄",
+    "nameEn": "Houzhuang",
+    "line": "屏東線",
+    "city": "高雄市",
+    "lat": 22.64016,
+    "lng": 120.39131,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 90,
+    "altitude": 8,
+    "builtEra": "現代",
+    "tags": [
+      "小站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/後庄車站",
+      "googleMaps": "https://maps.google.com/?q=後庄車站"
+    }
+  },
+  {
+    "id": "4460",
+    "name": "九曲堂",
+    "nameEn": "Jiuqutang",
+    "line": "屏東線",
+    "city": "高雄市",
+    "lat": 22.65641,
+    "lng": 120.42089,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 10,
+    "builtEra": "日治時期",
+    "tags": [
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/九曲堂車站",
+      "googleMaps": "https://maps.google.com/?q=九曲堂車站"
+    }
+  },
+  {
+    "id": "4470",
+    "name": "六塊厝",
+    "nameEn": "Liukuaicuo",
+    "line": "縱貫線南",
+    "city": "屏東縣",
+    "lat": 22.66597,
+    "lng": 120.46497,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/六塊厝車站",
+      "googleMaps": "https://maps.google.com/?q=六塊厝車站"
+    }
+  },
+  {
+    "id": "5000",
+    "name": "屏東",
+    "nameEn": "Pingtung",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.66905,
+    "lng": 120.48617,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 12000,
+    "altitude": 20,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/屏東車站",
+      "googleMaps": "https://maps.google.com/?q=屏東車站"
+    }
+  },
+  {
+    "id": "5010",
+    "name": "歸來",
+    "nameEn": "Guilai",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.65246,
+    "lng": 120.50263,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 65,
+    "altitude": 22,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/歸來車站",
+      "googleMaps": "https://maps.google.com/?q=歸來車站"
+    }
+  },
+  {
+    "id": "5020",
+    "name": "麟洛",
+    "nameEn": "Linluo",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.63481,
+    "lng": 120.51432,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 80,
+    "altitude": 28,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "客家"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/麟洛車站",
+      "googleMaps": "https://maps.google.com/?q=麟洛車站"
+    }
+  },
+  {
+    "id": "5030",
+    "name": "西勢",
+    "nameEn": "Xishi",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.61637,
+    "lng": 120.52649,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 55,
+    "altitude": 30,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/西勢車站",
+      "googleMaps": "https://maps.google.com/?q=西勢車站"
+    }
+  },
+  {
+    "id": "5040",
+    "name": "竹田",
+    "nameEn": "Zhutian",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.58658,
+    "lng": 120.53978,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 850,
+    "altitude": 32,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "客家",
+      "適合拍照",
+      "歷史車站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/竹田車站",
+      "googleMaps": "https://maps.google.com/?q=竹田車站"
+    }
+  },
+  {
+    "id": "5050",
+    "name": "潮州",
+    "nameEn": "Chaozhou",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.55008,
+    "lng": 120.53604,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 5500,
+    "altitude": 35,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/潮州車站",
+      "googleMaps": "https://maps.google.com/?q=潮州車站"
+    }
+  },
+  {
+    "id": "5060",
+    "name": "崁頂",
+    "nameEn": "Kanding",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.51311,
+    "lng": 120.51481,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 60,
+    "altitude": 18,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/崁頂車站",
+      "googleMaps": "https://maps.google.com/?q=崁頂車站"
+    }
+  },
+  {
+    "id": "5070",
+    "name": "南州",
+    "nameEn": "Nanzhou",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.49207,
+    "lng": 120.51174,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 15,
+    "builtEra": "日治時期",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南州車站",
+      "googleMaps": "https://maps.google.com/?q=南州車站"
+    }
+  },
+  {
+    "id": "5080",
+    "name": "鎮安",
+    "nameEn": "Zhen'an",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.45794,
+    "lng": 120.51129,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 45,
+    "altitude": 12,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/鎮安車站",
+      "googleMaps": "https://maps.google.com/?q=鎮安車站"
+    }
+  },
+  {
+    "id": "5090",
+    "name": "林邊",
+    "nameEn": "Linbian",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.43135,
+    "lng": 120.51529,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1600,
+    "altitude": 8,
+    "builtEra": "日治時期",
+    "tags": [
+      "養殖漁業"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/林邊車站",
+      "googleMaps": "https://maps.google.com/?q=林邊車站"
+    }
+  },
+  {
+    "id": "5100",
+    "name": "佳冬",
+    "nameEn": "Jiadong",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.41409,
+    "lng": 120.54774,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 70,
+    "altitude": 8,
+    "builtEra": "現代",
+    "tags": [
+      "小站"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/佳冬車站",
+      "googleMaps": "https://maps.google.com/?q=佳冬車站"
+    }
+  },
+  {
+    "id": "5110",
+    "name": "東海",
+    "nameEn": "Donghai",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.39897,
+    "lng": 120.57236,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 35,
+    "altitude": 10,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/東海車站_(屏東縣)",
+      "googleMaps": "https://maps.google.com/?q=東海車站屏東"
+    }
+  },
+  {
+    "id": "5120",
+    "name": "枋寮",
+    "nameEn": "Fangliao",
+    "line": "屏東線",
+    "city": "屏東縣",
+    "lat": 22.36802,
+    "lng": 120.59511,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [
+      "南迴線起點",
+      "轉乘站",
+      "海邊"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/枋寮車站",
+      "googleMaps": "https://maps.google.com/?q=枋寮車站"
+    }
+  },
+  {
+    "id": "5130",
+    "name": "加祿",
+    "nameEn": "Jialu",
+    "line": "南迴線",
+    "city": "屏東縣",
+    "lat": 22.33085,
+    "lng": 120.62445,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 25,
+    "altitude": 45,
+    "builtEra": "現代",
+    "tags": [
+      "南迴線",
+      "小站",
+      "極冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/加祿車站",
+      "googleMaps": "https://maps.google.com/?q=加祿車站"
+    }
+  },
+  {
+    "id": "5140",
+    "name": "內獅",
+    "nameEn": "Neishi",
+    "line": "南迴線",
+    "city": "屏東縣",
+    "lat": 22.30617,
+    "lng": 120.64331,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 20,
+    "altitude": 78,
+    "builtEra": "現代",
+    "tags": [
+      "南迴線",
+      "小站",
+      "極冷門",
+      "山區"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/內獅車站",
+      "googleMaps": "https://maps.google.com/?q=內獅車站"
+    }
+  },
+  {
+    "id": "5160",
+    "name": "枋山",
+    "nameEn": "Fangshan",
+    "line": "南迴線",
+    "city": "屏東縣",
+    "lat": 22.26704,
+    "lng": 120.65947,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 15,
+    "altitude": 55,
+    "builtEra": "現代",
+    "tags": [
+      "南迴線",
+      "極小眾",
+      "海景",
+      "山景"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/枋山車站",
+      "googleMaps": "https://maps.google.com/?q=枋山車站"
+    }
+  },
+  {
+    "id": "5170",
+    "name": "枋野",
+    "nameEn": "Fangye",
+    "line": "南迴線",
+    "city": "屏東縣",
+    "lat": 22.28091,
+    "lng": 120.71709,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/枋野車站",
+      "googleMaps": "https://maps.google.com/?q=枋野車站"
+    }
+  },
+  {
+    "id": "5190",
+    "name": "大武",
+    "nameEn": "Dawu",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.36526,
+    "lng": 120.90094,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大武車站",
+      "googleMaps": "https://maps.google.com/?q=大武車站"
+    }
+  },
+  {
+    "id": "5200",
+    "name": "瀧溪",
+    "nameEn": "Longxi",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.46102,
+    "lng": 120.94176,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/瀧溪車站",
+      "googleMaps": "https://maps.google.com/?q=瀧溪車站"
+    }
+  },
+  {
+    "id": "5210",
+    "name": "金崙",
+    "nameEn": "Jinlun",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.53161,
+    "lng": 120.96721,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 55,
+    "altitude": 20,
+    "builtEra": "現代",
+    "tags": [
+      "南迴線",
+      "溫泉",
+      "小眾"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/金崙車站",
+      "googleMaps": "https://maps.google.com/?q=金崙車站"
+    }
+  },
+  {
+    "id": "5220",
+    "name": "太麻里",
+    "nameEn": "Taimali",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.61883,
+    "lng": 121.00492,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 850,
+    "altitude": 15,
+    "builtEra": "現代",
+    "tags": [
+      "南迴線",
+      "海景",
+      "日出",
+      "金針花"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/太麻里車站",
+      "googleMaps": "https://maps.google.com/?q=太麻里車站"
+    }
+  },
+  {
+    "id": "5230",
+    "name": "知本",
+    "nameEn": "Zhiben",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.71022,
+    "lng": 121.06068,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1100,
+    "altitude": 22,
+    "builtEra": "現代",
+    "tags": [
+      "溫泉",
+      "知本溫泉"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/知本車站",
+      "googleMaps": "https://maps.google.com/?q=知本車站"
+    }
+  },
+  {
+    "id": "5240",
+    "name": "康樂",
+    "nameEn": "Kangle",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.76426,
+    "lng": 121.09356,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 30,
+    "altitude": 20,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "極冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/康樂車站_(台東縣)",
+      "googleMaps": "https://maps.google.com/?q=康樂車站台東"
+    }
+  },
+  {
+    "id": "6000",
+    "name": "台東",
+    "nameEn": "Taitung",
+    "line": "南迴線",
+    "city": "台東縣",
+    "lat": 22.79372,
+    "lng": 121.1231,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 7200,
+    "altitude": 18,
+    "builtEra": "現代",
+    "tags": [
+      "大站",
+      "南迴線終點",
+      "北迴線起點"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/台東車站",
+      "googleMaps": "https://maps.google.com/?q=台東車站"
+    }
+  },
+  {
+    "id": "6010",
+    "name": "山里",
+    "nameEn": "Shanli",
+    "line": "花東線",
+    "city": "台東縣",
+    "lat": 22.86194,
+    "lng": 121.13778,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 28,
+    "altitude": 52,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "小站",
+      "極冷門",
+      "縱谷"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/山里車站",
+      "googleMaps": "https://maps.google.com/?q=山里車站"
+    }
+  },
+  {
+    "id": "6020",
+    "name": "鹿野",
+    "nameEn": "Luye",
+    "line": "花東線",
+    "city": "台東縣",
+    "lat": 22.91249,
+    "lng": 121.13701,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 550,
+    "altitude": 195,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "熱氣球",
+      "縱谷"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/鹿野車站",
+      "googleMaps": "https://maps.google.com/?q=鹿野車站"
+    }
+  },
+  {
+    "id": "6030",
+    "name": "瑞源",
+    "nameEn": "Ruiyuan",
+    "line": "花東線",
+    "city": "台東縣",
+    "lat": 22.95604,
+    "lng": 121.15901,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/瑞源車站",
+      "googleMaps": "https://maps.google.com/?q=瑞源車站"
+    }
+  },
+  {
+    "id": "6040",
+    "name": "瑞和",
+    "nameEn": "Ruihe",
+    "line": "花東線",
+    "city": "台東縣",
+    "lat": 22.97997,
+    "lng": 121.15595,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/瑞和車站",
+      "googleMaps": "https://maps.google.com/?q=瑞和車站"
+    }
+  },
+  {
+    "id": "6050",
+    "name": "關山",
+    "nameEn": "Guanshan",
+    "line": "花東線",
+    "city": "台東縣",
+    "lat": 23.04566,
+    "lng": 121.1643,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 218,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "縱谷",
+      "單車"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/關山車站",
+      "googleMaps": "https://maps.google.com/?q=關山車站"
+    }
+  },
+  {
+    "id": "6060",
+    "name": "海端",
+    "nameEn": "Haiduan",
+    "line": "花東線",
+    "city": "台東縣",
+    "lat": 23.10292,
+    "lng": 121.17676,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/海端車站",
+      "googleMaps": "https://maps.google.com/?q=海端車站"
+    }
+  },
+  {
+    "id": "6070",
+    "name": "池上",
+    "nameEn": "Chishang",
+    "line": "花東線",
+    "city": "台東縣",
+    "lat": 23.12613,
+    "lng": 121.21949,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1800,
+    "altitude": 248,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "縱谷",
+      "便當",
+      "稻田",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/池上車站",
+      "googleMaps": "https://maps.google.com/?q=池上車站"
+    }
+  },
+  {
+    "id": "6080",
+    "name": "富里",
+    "nameEn": "Fuli",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.17924,
+    "lng": 121.24864,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 680,
+    "altitude": 182,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "縱谷",
+      "米鄉"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/富里車站",
+      "googleMaps": "https://maps.google.com/?q=富里車站"
+    }
+  },
+  {
+    "id": "6090",
+    "name": "東竹",
+    "nameEn": "Dongzhu",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.22605,
+    "lng": 121.27842,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/東竹車站",
+      "googleMaps": "https://maps.google.com/?q=東竹車站"
+    }
+  },
+  {
+    "id": "6100",
+    "name": "東里",
+    "nameEn": "Dongli",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.27234,
+    "lng": 121.30418,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/東里車站",
+      "googleMaps": "https://maps.google.com/?q=東里車站"
+    }
+  },
+  {
+    "id": "6110",
+    "name": "玉里",
+    "nameEn": "Yuli",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.33155,
+    "lng": 121.31172,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2800,
+    "altitude": 128,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "縱谷"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/玉里車站",
+      "googleMaps": "https://maps.google.com/?q=玉里車站"
+    }
+  },
+  {
+    "id": "6120",
+    "name": "三民",
+    "nameEn": "Sanmin",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.42458,
+    "lng": 121.34539,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/三民車站",
+      "googleMaps": "https://maps.google.com/?q=三民車站"
+    }
+  },
+  {
+    "id": "6130",
+    "name": "瑞穗",
+    "nameEn": "Ruisui",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.49738,
+    "lng": 121.37684,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1500,
+    "altitude": 80,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "溫泉",
+      "縱谷"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/瑞穗車站",
+      "googleMaps": "https://maps.google.com/?q=瑞穗車站"
+    }
+  },
+  {
+    "id": "6140",
+    "name": "富源",
+    "nameEn": "Fuyuan",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.58031,
+    "lng": 121.38008,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/富源車站",
+      "googleMaps": "https://maps.google.com/?q=富源車站"
+    }
+  },
+  {
+    "id": "6150",
+    "name": "大富",
+    "nameEn": "Dafu",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.60571,
+    "lng": 121.38963,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大富車站",
+      "googleMaps": "https://maps.google.com/?q=大富車站"
+    }
+  },
+  {
+    "id": "6160",
+    "name": "光復",
+    "nameEn": "Guangfu",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.66631,
+    "lng": 121.42117,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 55,
+    "builtEra": "現代",
+    "tags": [
+      "花東線",
+      "糖廠",
+      "馬太鞍"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/光復車站",
+      "googleMaps": "https://maps.google.com/?q=光復車站"
+    }
+  },
+  {
+    "id": "6170",
+    "name": "萬榮",
+    "nameEn": "Wanrong",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.71199,
+    "lng": 121.41907,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/萬榮車站",
+      "googleMaps": "https://maps.google.com/?q=萬榮車站"
+    }
+  },
+  {
+    "id": "6180",
+    "name": "鳳林",
+    "nameEn": "Fenglin",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.74634,
+    "lng": 121.44701,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/鳳林車站",
+      "googleMaps": "https://maps.google.com/?q=鳳林車站"
+    }
+  },
+  {
+    "id": "6190",
+    "name": "南平",
+    "nameEn": "Nanping",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.78231,
+    "lng": 121.45824,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南平車站",
+      "googleMaps": "https://maps.google.com/?q=南平車站"
+    }
+  },
+  {
+    "id": "6200",
+    "name": "林榮新光",
+    "nameEn": "Linrong Shin Kong",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.80176,
+    "lng": 121.46169,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/林榮新光車站",
+      "googleMaps": "https://maps.google.com/?q=林榮新光車站"
+    }
+  },
+  {
+    "id": "6210",
+    "name": "豐田",
+    "nameEn": "Fengtian",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.84842,
+    "lng": 121.49618,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/豐田車站",
+      "googleMaps": "https://maps.google.com/?q=豐田車站"
+    }
+  },
+  {
+    "id": "6220",
+    "name": "壽豐",
+    "nameEn": "Shoufeng",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.86901,
+    "lng": 121.51064,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/壽豐車站",
+      "googleMaps": "https://maps.google.com/?q=壽豐車站"
+    }
+  },
+  {
+    "id": "6230",
+    "name": "平和",
+    "nameEn": "Pinghe",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.88279,
+    "lng": 121.52045,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/平和車站",
+      "googleMaps": "https://maps.google.com/?q=平和車站"
+    }
+  },
+  {
+    "id": "6240",
+    "name": "志學",
+    "nameEn": "Zhixue",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.90769,
+    "lng": 121.5295,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/志學車站",
+      "googleMaps": "https://maps.google.com/?q=志學車站"
+    }
+  },
+  {
+    "id": "6250",
+    "name": "吉安",
+    "nameEn": "Ji'an",
+    "line": "花東線",
+    "city": "花蓮縣",
+    "lat": 23.96823,
+    "lng": 121.58266,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/吉安車站",
+      "googleMaps": "https://maps.google.com/?q=吉安車站"
+    }
+  },
+  {
+    "id": "7000",
+    "name": "花蓮",
+    "nameEn": "Hualien",
+    "line": "北迴線",
+    "city": "花蓮縣",
+    "lat": 23.99265,
+    "lng": 121.60131,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 15000,
+    "altitude": 12,
+    "builtEra": "現代",
+    "tags": [
+      "大站",
+      "花東線起點"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/花蓮車站",
+      "googleMaps": "https://maps.google.com/?q=花蓮車站"
+    }
+  },
+  {
+    "id": "7010",
+    "name": "北埔",
+    "nameEn": "Beipu",
+    "line": "北迴線",
+    "city": "花蓮縣",
+    "lat": 24.03253,
+    "lng": 121.60166,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 40,
+    "altitude": 15,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門",
+      "北迴線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/北埔車站_(花蓮縣)",
+      "googleMaps": "https://maps.google.com/?q=北埔車站花蓮"
+    }
+  },
+  {
+    "id": "7020",
+    "name": "景美",
+    "nameEn": "Jingmei",
+    "line": "北迴線",
+    "city": "花蓮縣",
+    "lat": 24.09041,
+    "lng": 121.61095,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 35,
+    "altitude": 18,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "極冷門",
+      "北迴線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/景美車站_(花蓮縣)",
+      "googleMaps": "https://maps.google.com/?q=景美車站花蓮"
+    }
+  },
+  {
+    "id": "7030",
+    "name": "新城",
+    "nameEn": "Xincheng",
+    "line": "北迴線",
+    "city": "花蓮縣",
+    "lat": 24.12756,
+    "lng": 121.64086,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 20,
+    "builtEra": "現代",
+    "tags": [
+      "太魯閣入口",
+      "觀光",
+      "北迴線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新城車站",
+      "googleMaps": "https://maps.google.com/?q=新城車站"
+    }
+  },
+  {
+    "id": "7040",
+    "name": "崇德",
+    "nameEn": "Chongde",
+    "line": "北迴線",
+    "city": "花蓮縣",
+    "lat": 24.17199,
+    "lng": 121.65536,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 45,
+    "altitude": 18,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "海景",
+      "山景",
+      "北迴線",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/崇德車站",
+      "googleMaps": "https://maps.google.com/?q=崇德車站"
+    }
+  },
+  {
+    "id": "7050",
+    "name": "和仁",
+    "nameEn": "Heren",
+    "line": "北迴線",
+    "city": "花蓮縣",
+    "lat": 24.24225,
+    "lng": 121.71182,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 30,
+    "altitude": 22,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "極冷門",
+      "海景",
+      "北迴線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/和仁車站",
+      "googleMaps": "https://maps.google.com/?q=和仁車站"
+    }
+  },
+  {
+    "id": "7060",
+    "name": "和平",
+    "nameEn": "Heping",
+    "line": "北迴線",
+    "city": "花蓮縣",
+    "lat": 24.29839,
+    "lng": 121.75344,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 280,
+    "altitude": 25,
+    "builtEra": "現代",
+    "tags": [
+      "北迴線",
+      "水泥廠",
+      "山海景"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/和平車站_(花蓮縣)",
+      "googleMaps": "https://maps.google.com/?q=和平車站花蓮"
+    }
+  },
+  {
+    "id": "7070",
+    "name": "漢本",
+    "nameEn": "Hanben",
+    "line": "北迴線",
+    "city": "宜蘭縣",
+    "lat": 24.33543,
+    "lng": 121.76838,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 20,
+    "altitude": 30,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "極冷門",
+      "海景",
+      "北迴線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/漢本車站",
+      "googleMaps": "https://maps.google.com/?q=漢本車站"
+    }
+  },
+  {
+    "id": "7080",
+    "name": "武塔",
+    "nameEn": "Wuta",
+    "line": "北迴線",
+    "city": "宜蘭縣",
+    "lat": 24.44879,
+    "lng": 121.77601,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 25,
+    "altitude": 45,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "極冷門",
+      "原住民",
+      "北迴線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/武塔車站",
+      "googleMaps": "https://maps.google.com/?q=武塔車站"
+    }
+  },
+  {
+    "id": "7090",
+    "name": "南澳",
+    "nameEn": "Nan'ao",
+    "line": "北迴線",
+    "city": "宜蘭縣",
+    "lat": 24.46342,
+    "lng": 121.80103,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 650,
+    "altitude": 28,
+    "builtEra": "現代",
+    "tags": [
+      "北迴線",
+      "原住民",
+      "海邊"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/南澳車站",
+      "googleMaps": "https://maps.google.com/?q=南澳車站"
+    }
+  },
+  {
+    "id": "7100",
+    "name": "東澳",
+    "nameEn": "Dong'ao",
+    "line": "北迴線",
+    "city": "宜蘭縣",
+    "lat": 24.51827,
+    "lng": 121.83072,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 55,
+    "altitude": 22,
+    "builtEra": "現代",
+    "tags": [
+      "北迴線",
+      "小站",
+      "海景",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/東澳車站",
+      "googleMaps": "https://maps.google.com/?q=東澳車站"
+    }
+  },
+  {
+    "id": "7110",
+    "name": "永樂",
+    "nameEn": "Yongle",
+    "line": "北迴線",
+    "city": "宜蘭縣",
+    "lat": 24.56843,
+    "lng": 121.84458,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/永樂車站",
+      "googleMaps": "https://maps.google.com/?q=永樂車站"
+    }
+  },
+  {
+    "id": "7120",
+    "name": "蘇澳",
+    "nameEn": "Su'ao",
+    "line": "北迴線",
+    "city": "宜蘭縣",
+    "lat": 24.59516,
+    "lng": 121.85143,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/蘇澳車站",
+      "googleMaps": "https://maps.google.com/?q=蘇澳車站"
+    }
+  },
+  {
+    "id": "7130",
+    "name": "蘇澳新",
+    "nameEn": "Su'aoxin",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.60852,
+    "lng": 121.82735,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2100,
+    "altitude": 12,
+    "builtEra": "現代",
+    "tags": [
+      "北迴線轉乘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/蘇澳新車站",
+      "googleMaps": "https://maps.google.com/?q=蘇澳新車站"
+    }
+  },
+  {
+    "id": "7140",
+    "name": "新馬",
+    "nameEn": "Xinma",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.61541,
+    "lng": 121.82291,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/新馬車站",
+      "googleMaps": "https://maps.google.com/?q=新馬車站"
+    }
+  },
+  {
+    "id": "7150",
+    "name": "冬山",
+    "nameEn": "Dongshan",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.63633,
+    "lng": 121.79211,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3200,
+    "altitude": 25,
+    "builtEra": "現代",
+    "tags": [
+      "冬山河",
+      "親水公園"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/冬山車站",
+      "googleMaps": "https://maps.google.com/?q=冬山車站"
+    }
+  },
+  {
+    "id": "7160",
+    "name": "羅東",
+    "nameEn": "Luodong",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.67791,
+    "lng": 121.77464,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 8500,
+    "altitude": 22,
+    "builtEra": "日治時期",
+    "tags": [
+      "夜市",
+      "觀光"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/羅東車站",
+      "googleMaps": "https://maps.google.com/?q=羅東車站"
+    }
+  },
+  {
+    "id": "7170",
+    "name": "中里",
+    "nameEn": "Zhongli_Yilan",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.69415,
+    "lng": 121.77526,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 70,
+    "altitude": 22,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/中里車站",
+      "googleMaps": "https://maps.google.com/?q=中里車站"
+    }
+  },
+  {
+    "id": "7180",
+    "name": "二結",
+    "nameEn": "Erjie",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.70528,
+    "lng": 121.77409,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 95,
+    "altitude": 20,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/二結車站",
+      "googleMaps": "https://maps.google.com/?q=二結車站"
+    }
+  },
+  {
+    "id": "7190",
+    "name": "宜蘭",
+    "nameEn": "Yilan",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.75457,
+    "lng": 121.75803,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 12000,
+    "altitude": 18,
+    "builtEra": "日治時期",
+    "tags": [
+      "大站",
+      "蘭陽博物館"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/宜蘭車站",
+      "googleMaps": "https://maps.google.com/?q=宜蘭車站"
+    }
+  },
+  {
+    "id": "7200",
+    "name": "四城",
+    "nameEn": "Sicheng",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.78681,
+    "lng": 121.76271,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/四城車站",
+      "googleMaps": "https://maps.google.com/?q=四城車站"
+    }
+  },
+  {
+    "id": "7210",
+    "name": "礁溪",
+    "nameEn": "Jiaoxi",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.82703,
+    "lng": 121.77535,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 3500,
+    "altitude": 15,
+    "builtEra": "現代",
+    "tags": [
+      "溫泉",
+      "觀光"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/礁溪車站",
+      "googleMaps": "https://maps.google.com/?q=礁溪車站"
+    }
+  },
+  {
+    "id": "7220",
+    "name": "頂埔",
+    "nameEn": "Dingpu",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.84391,
+    "lng": 121.80913,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/頂埔車站",
+      "googleMaps": "https://maps.google.com/?q=頂埔車站"
+    }
+  },
+  {
+    "id": "7230",
+    "name": "頭城",
+    "nameEn": "Toucheng",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.85898,
+    "lng": 121.82258,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1800,
+    "altitude": 12,
+    "builtEra": "日治時期",
+    "tags": [
+      "老街",
+      "蘭陽平原入口"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/頭城車站",
+      "googleMaps": "https://maps.google.com/?q=頭城車站"
+    }
+  },
+  {
+    "id": "7240",
+    "name": "外澳",
+    "nameEn": "Wai'ao",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.88375,
+    "lng": 121.84572,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/外澳車站",
+      "googleMaps": "https://maps.google.com/?q=外澳車站"
+    }
+  },
+  {
+    "id": "7250",
+    "name": "龜山",
+    "nameEn": "Guishan",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.90484,
+    "lng": 121.8689,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 55,
+    "altitude": 15,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "冷門",
+      "龜山島"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/龜山車站",
+      "googleMaps": "https://maps.google.com/?q=龜山車站宜蘭"
+    }
+  },
+  {
+    "id": "7260",
+    "name": "大溪",
+    "nameEn": "Daxi",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.93836,
+    "lng": 121.88983,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 75,
+    "altitude": 18,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "海景",
+      "龜山島視野",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大溪車站_(宜蘭縣)",
+      "googleMaps": "https://maps.google.com/?q=大溪車站宜蘭"
+    }
+  },
+  {
+    "id": "7270",
+    "name": "大里",
+    "nameEn": "Dali",
+    "line": "宜蘭線",
+    "city": "宜蘭縣",
+    "lat": 24.96677,
+    "lng": 121.92253,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 65,
+    "altitude": 20,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "海景",
+      "龜山島視野",
+      "冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大里車站",
+      "googleMaps": "https://maps.google.com/?q=大里車站宜蘭"
+    }
+  },
+  {
+    "id": "7280",
+    "name": "石城",
+    "nameEn": "Shicheng",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 24.97832,
+    "lng": 121.94507,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 40,
+    "altitude": 25,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "海景",
+      "極冷門"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/石城車站",
+      "googleMaps": "https://maps.google.com/?q=石城車站"
+    }
+  },
+  {
+    "id": "7290",
+    "name": "福隆",
+    "nameEn": "Fulong",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.01595,
+    "lng": 121.94471,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1200,
+    "altitude": 15,
+    "builtEra": "日治時期",
+    "tags": [
+      "海灘",
+      "沙雕節",
+      "觀光",
+      "海景"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/福隆車站",
+      "googleMaps": "https://maps.google.com/?q=福隆車站"
+    }
+  },
+  {
+    "id": "7300",
+    "name": "貢寮",
+    "nameEn": "Gongliao",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.02197,
+    "lng": 121.90879,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 600,
+    "altitude": 28,
+    "builtEra": "日治時期",
+    "tags": [
+      "海邊",
+      "鹽寮海灘"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/貢寮車站",
+      "googleMaps": "https://maps.google.com/?q=貢寮車站"
+    }
+  },
+  {
+    "id": "7310",
+    "name": "雙溪",
+    "nameEn": "Shuangxi",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.03851,
+    "lng": 121.86654,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 750,
+    "altitude": 130,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線",
+      "小鎮"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/雙溪車站",
+      "googleMaps": "https://maps.google.com/?q=雙溪車站"
+    }
+  },
+  {
+    "id": "7320",
+    "name": "牡丹",
+    "nameEn": "Mudan",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.05871,
+    "lng": 121.85197,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 85,
+    "altitude": 120,
+    "builtEra": "日治時期",
+    "tags": [
+      "山線",
+      "小眾",
+      "步道"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/牡丹車站_(新北市)",
+      "googleMaps": "https://maps.google.com/?q=牡丹車站新北"
+    }
+  },
+  {
+    "id": "7330",
+    "name": "三貂嶺",
+    "nameEn": "Sandiaoling",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.06555,
+    "lng": 121.82257,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 250,
+    "altitude": 80,
+    "builtEra": "日治時期",
+    "tags": [
+      "平溪線轉乘",
+      "瀑布",
+      "步道",
+      "小眾"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/三貂嶺車站",
+      "googleMaps": "https://maps.google.com/?q=三貂嶺車站"
+    }
+  },
+  {
+    "id": "7331",
+    "name": "大華",
+    "nameEn": "Dahua",
+    "line": "平溪線",
+    "city": "新北市",
+    "lat": 25.04998,
+    "lng": 121.79732,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 45,
+    "altitude": 110,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "極冷門",
+      "平溪線",
+      "步道"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/大華車站",
+      "googleMaps": "https://maps.google.com/?q=大華車站"
+    }
+  },
+  {
+    "id": "7332",
+    "name": "十分",
+    "nameEn": "Shifen",
+    "line": "平溪線",
+    "city": "新北市",
+    "lat": 25.04111,
+    "lng": 121.77514,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 2500,
+    "altitude": 155,
+    "builtEra": "日治時期",
+    "tags": [
+      "天燈",
+      "瀑布",
+      "觀光",
+      "平溪線",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/十分車站",
+      "googleMaps": "https://maps.google.com/?q=十分車站"
+    }
+  },
+  {
+    "id": "7333",
+    "name": "望古",
+    "nameEn": "Wanggu",
+    "line": "平溪線",
+    "city": "新北市",
+    "lat": 25.03445,
+    "lng": 121.76349,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 55,
+    "altitude": 148,
+    "builtEra": "現代",
+    "tags": [
+      "小站",
+      "極冷門",
+      "瀑布",
+      "步道",
+      "平溪線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/望古車站",
+      "googleMaps": "https://maps.google.com/?q=望古車站"
+    }
+  },
+  {
+    "id": "7334",
+    "name": "嶺腳",
+    "nameEn": "Lingjiao",
+    "line": "平溪線",
+    "city": "新北市",
+    "lat": 25.03016,
+    "lng": 121.74795,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 80,
+    "altitude": 130,
+    "builtEra": "日治時期",
+    "tags": [
+      "小站",
+      "冷門",
+      "平溪線",
+      "步道"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/嶺腳車站",
+      "googleMaps": "https://maps.google.com/?q=嶺腳車站"
+    }
+  },
+  {
+    "id": "7335",
+    "name": "平溪",
+    "nameEn": "Pingxi",
+    "line": "平溪線",
+    "city": "新北市",
+    "lat": 25.02571,
+    "lng": 121.74019,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 650,
+    "altitude": 165,
+    "builtEra": "日治時期",
+    "tags": [
+      "天燈",
+      "老街",
+      "觀光",
+      "平溪線"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/平溪車站",
+      "googleMaps": "https://maps.google.com/?q=平溪車站"
+    }
+  },
+  {
+    "id": "7336",
+    "name": "菁桐",
+    "nameEn": "Jingtong",
+    "line": "平溪線",
+    "city": "新北市",
+    "lat": 25.02391,
+    "lng": 121.72391,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 180,
+    "altitude": 190,
+    "builtEra": "日治時期",
+    "tags": [
+      "木造站房",
+      "終點站",
+      "適合拍照",
+      "老車站",
+      "天燈",
+      "礦業遺址"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/菁桐車站",
+      "googleMaps": "https://maps.google.com/?q=菁桐車站"
+    }
+  },
+  {
+    "id": "7350",
+    "name": "猴硐",
+    "nameEn": "Houtong",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.08702,
+    "lng": 121.82743,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 1800,
+    "altitude": 45,
+    "builtEra": "日治時期",
+    "tags": [
+      "貓村",
+      "觀光",
+      "礦坑遺址",
+      "適合拍照"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/猴硐車站",
+      "googleMaps": "https://maps.google.com/?q=猴硐車站"
+    }
+  },
+  {
+    "id": "7360",
+    "name": "瑞芳",
+    "nameEn": "Ruifang",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.10872,
+    "lng": 121.80599,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 9500,
+    "altitude": 25,
+    "builtEra": "日治時期",
+    "tags": [
+      "平溪線轉乘",
+      "九份",
+      "觀光"
+    ],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/瑞芳車站",
+      "googleMaps": "https://maps.google.com/?q=瑞芳車站"
+    }
+  },
+  {
+    "id": "7361",
+    "name": "海科館",
+    "nameEn": "Haikeguan",
+    "line": "深澳線",
+    "city": "基隆市",
+    "lat": 25.13754,
+    "lng": 121.79997,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/海科館車站",
+      "googleMaps": "https://maps.google.com/?q=海科館車站"
+    }
+  },
+  {
+    "id": "7362",
+    "name": "八斗子",
+    "nameEn": "Badouzi",
+    "line": "深澳線",
+    "city": "新北市",
+    "lat": 25.13528,
+    "lng": 121.80286,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/八斗子車站",
+      "googleMaps": "https://maps.google.com/?q=八斗子車站"
+    }
+  },
+  {
+    "id": "7380",
+    "name": "四腳亭",
+    "nameEn": "Sijiaoting",
+    "line": "宜蘭線",
+    "city": "新北市",
+    "lat": 25.10281,
+    "lng": 121.76195,
+    "type": "一般站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/四腳亭車站",
+      "googleMaps": "https://maps.google.com/?q=四腳亭車站"
+    }
+  },
+  {
+    "id": "7390",
+    "name": "暖暖",
+    "nameEn": "Nuannuan",
+    "line": "宜蘭線",
+    "city": "基隆市",
+    "lat": 25.10231,
+    "lng": 121.74031,
+    "type": "招呼站",
+    "status": "營運中",
+    "dailyPassengers": 0,
+    "altitude": 0,
+    "builtEra": "現代",
+    "tags": [],
+    "links": {
+      "wikipedia": "https://zh.wikipedia.org/wiki/暖暖車站",
+      "googleMaps": "https://maps.google.com/?q=暖暖車站"
+    }
+  }
+]
