@@ -1,28 +1,15 @@
 import { useState, useEffect } from 'react'
 
-// 台灣範圍 bounding box
-const BBOX = '21.8,119.9,25.4,122.1'
-const OVERPASS = 'https://overpass-api.de/api/interpreter'
-const QUERY = encodeURIComponent(
-  `[out:json][timeout:60];(` +
-  `node["tourism"~"^(attraction|museum|viewpoint|artwork|gallery)$"](${BBOX});` +
-  `node["historic"~"^(monument|memorial|ruins|fort|castle)$"](${BBOX});` +
-  `node["leisure"~"^(park|nature_reserve|garden)$"](${BBOX});` +
-  `);out body;`
-)
-
 // module 變數：頁面存活期間只查一次
 let allPOIs = null   // null=未載入, []=載入完成
 let initPromise = null
 
 export function initNearby() {
   if (initPromise) return
-  initPromise = fetch(`${OVERPASS}?data=${QUERY}`)
-    .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
+  initPromise = fetch('/api/nearby')
+    .then(r => r.json())
     .then(d => {
-      allPOIs = (d.elements || []).filter(el =>
-        el.lat && el.lon && (el.tags?.['name:zh'] || el.tags?.name)
-      )
+      allPOIs = d.elements || []
     })
     .catch(() => { allPOIs = [] })
 }

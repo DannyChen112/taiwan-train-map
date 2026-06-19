@@ -207,7 +207,7 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
                   <p className="text-xs text-[#8C7B75] py-2">查詢中...</p>
                 )}
                 {nearbyItems && nearbyItems.length === 0 && (
-                  <p className="text-xs text-[#8C7B75] py-2">此站 800m 內暫無景點資訊</p>
+                  <p className="text-xs text-[#8C7B75] py-2">此站 5km 內暫無景點資訊</p>
                 )}
                 {nearbyItems && nearbyItems.length > 0 && (
                   <div className="space-y-1.5 mt-1">
