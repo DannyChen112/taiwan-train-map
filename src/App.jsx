@@ -119,6 +119,7 @@ export default function App() {
       {/* 車站資訊面板 */}
       {selectedStation && (
         <StationPanel
+          key={selectedStation.id}
           station={selectedStation}
           onClose={() => setSelectedStation(null)}
           isFavorite={favorites.includes(selectedStation.id)}

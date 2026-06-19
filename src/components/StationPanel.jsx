@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { getLineColor } from '../data/lines'
 import { useStationPhoto } from '../hooks/useStationPhoto'
 import { useWeather } from '../hooks/useWeather'
+import { useNearby } from '../hooks/useNearby'
 import { DESCRIPTIONS } from '../data/descriptions'
 
 function PassengerBar({ count }) {
@@ -55,6 +56,8 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
   const description = DESCRIPTIONS[station.id] || `位於${station.city}的${station.type}，${station.line}上的停靠站。`
   const lastTrain = station.dailyPassengers < 200 && station.dailyPassengers > 0
   const { weather, loading: weatherLoading } = useWeather(station.lat, station.lng)
+  const [showNearby, setShowNearby] = useState(false)
+  const { items: nearbyItems, loading: nearbyLoading, error: nearbyError } = useNearby(station.id, station.lat, station.lng, showNearby)
 
   return (
     <div className="fixed z-[999] flex flex-col
@@ -189,6 +192,45 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
               className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl border border-[#E8D5C0] text-sm text-[#3D3535] hover:bg-[#FFF3E8] hover:border-[#E8735A] transition-all">
               📍 地圖
             </a>
+          </div>
+
+          {/* 附近景點 */}
+          <div>
+            <button onClick={() => setShowNearby(o => !o)}
+              className="flex items-center gap-1.5 text-xs text-[#8C7B75] hover:text-[#E8735A] transition-colors">
+              🗺️ <span>{showNearby ? '收起附近景點' : '附近景點'}</span>
+              <span className="text-[#8C7B75] text-[11px]">{showNearby ? '▲' : '▼'}</span>
+            </button>
+            {showNearby && (
+              <div className="mt-2">
+                {nearbyLoading && (
+                  <p className="text-xs text-[#8C7B75] py-2">查詢中...</p>
+                )}
+                {nearbyError && (
+                  <p className="text-xs text-[#E8735A] py-2">無法取得資料，請稍後再試</p>
+                )}
+                {nearbyItems && nearbyItems.length === 0 && (
+                  <p className="text-xs text-[#8C7B75] py-2">此站 800m 內暫無景點資訊</p>
+                )}
+                {nearbyItems && nearbyItems.length > 0 && (
+                  <div className="space-y-1.5 mt-1">
+                    {nearbyItems.map(item => (
+                      <a key={item.id}
+                        href={`https://www.google.com/maps?q=${item.lat},${item.lng}`}
+                        target="_blank" rel="noopener noreferrer"
+                        className="flex items-center gap-2.5 px-3 py-2 rounded-xl bg-[#FFF8EE] border border-[#E8D5C0] hover:border-[#E8735A] transition-colors">
+                        <span className="text-base leading-none flex-shrink-0">{item.icon}</span>
+                        <div className="flex-1 min-w-0">
+                          <div className="text-sm font-medium text-[#3D3535] truncate">{item.name}</div>
+                          <div className="text-xs text-[#8C7B75]">{item.label}・{item.dist} m</div>
+                        </div>
+                        <span className="text-[#8C7B75] text-xs flex-shrink-0">↗</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
           {/* 個人筆記 */}
