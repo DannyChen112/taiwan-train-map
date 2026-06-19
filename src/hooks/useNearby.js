@@ -1,35 +1,33 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 
-const RADIUS = 800
-const OVERPASS_URL = 'https://overpass-api.de/api/interpreter'
+// 台灣範圍 bounding box
+const BBOX = '21.8,119.9,25.4,122.1'
+const OVERPASS = 'https://overpass-api.de/api/interpreter'
+const QUERY = encodeURIComponent(
+  `[out:json][timeout:60];(` +
+  `node["tourism"~"^(attraction|museum|viewpoint|artwork|gallery)$"](${BBOX});` +
+  `node["historic"~"^(monument|memorial|ruins|fort|castle)$"](${BBOX});` +
+  `node["leisure"~"^(park|nature_reserve|garden)$"](${BBOX});` +
+  `);out body;`
+)
 
-const QUERY = (lat, lng) =>
-  `[out:json][timeout:15];(` +
-  `node["tourism"~"^(attraction|museum|viewpoint|artwork|gallery)$"](around:${RADIUS},${lat},${lng});` +
-  `way["tourism"~"^(attraction|museum|viewpoint|artwork|gallery)$"](around:${RADIUS},${lat},${lng});` +
-  `node["historic"](around:${RADIUS},${lat},${lng});` +
-  `way["historic"](around:${RADIUS},${lat},${lng});` +
-  `node["leisure"~"^(park|nature_reserve|garden)$"](around:${RADIUS},${lat},${lng});` +
-  `way["leisure"~"^(park|nature_reserve|garden)$"](around:${RADIUS},${lat},${lng});` +
-  `node["amenity"~"^(restaurant|cafe)$"](around:${RADIUS},${lat},${lng});` +
-  `);out center;`
+// module 變數：頁面存活期間只查一次
+let allPOIs = null   // null=未載入, []=載入完成
+let initPromise = null
 
-function getCategory(tags) {
-  const { tourism, historic, leisure, amenity } = tags
-  if (tourism === 'museum')    return { label: '博物館', icon: '🏛️' }
-  if (tourism === 'viewpoint') return { label: '觀景點', icon: '🌄' }
-  if (tourism === 'artwork')   return { label: '藝術',   icon: '🎨' }
-  if (tourism === 'gallery')   return { label: '藝廊',   icon: '🖼️' }
-  if (tourism)                 return { label: '景點',   icon: '📍' }
-  if (historic)                return { label: '古蹟',   icon: '🏯' }
-  if (leisure === 'nature_reserve') return { label: '自然區', icon: '🌿' }
-  if (leisure)                 return { label: '公園',   icon: '🌳' }
-  if (amenity === 'cafe')      return { label: '咖啡廳', icon: '☕' }
-  if (amenity === 'restaurant') return { label: '餐廳',  icon: '🍜' }
-  return { label: '景點', icon: '📍' }
+export function initNearby() {
+  if (initPromise) return
+  initPromise = fetch(`${OVERPASS}?data=${QUERY}`)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json() })
+    .then(d => {
+      allPOIs = (d.elements || []).filter(el =>
+        el.lat && el.lon && (el.tags?.['name:zh'] || el.tags?.name)
+      )
+    })
+    .catch(() => { allPOIs = [] })
 }
 
-function distMeters(lat1, lng1, lat2, lng2) {
+function dist(lat1, lng1, lat2, lng2) {
   const R = 6371000
   const dLat = (lat2 - lat1) * Math.PI / 180
   const dLng = (lng2 - lng1) * Math.PI / 180
@@ -38,68 +36,59 @@ function distMeters(lat1, lng1, lat2, lng2) {
   return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)))
 }
 
-const cache = {}
+function category(tags) {
+  const { tourism, historic, leisure } = tags
+  if (tourism === 'museum')    return { label: '博物館', icon: '🏛️' }
+  if (tourism === 'viewpoint') return { label: '觀景點', icon: '🌄' }
+  if (tourism === 'artwork')   return { label: '藝術',   icon: '🎨' }
+  if (tourism === 'gallery')   return { label: '藝廊',   icon: '🖼️' }
+  if (tourism)                 return { label: '景點',   icon: '📍' }
+  if (historic)                return { label: '古蹟',   icon: '🏯' }
+  if (leisure === 'nature_reserve') return { label: '自然區', icon: '🌿' }
+  if (leisure)                 return { label: '公園',   icon: '🌳' }
+  return { label: '景點', icon: '📍' }
+}
 
-export function useNearby(stationId, lat, lng, enabled) {
+function filterNearby(lat, lng) {
+  if (!allPOIs) return []
+  return allPOIs
+    .map(el => {
+      const d = dist(lat, lng, el.lat, el.lon)
+      if (d > 800) return null
+      const tags = el.tags
+      return {
+        id: el.id,
+        name: tags['name:zh'] || tags.name,
+        dist: d,
+        lat: el.lat,
+        lng: el.lon,
+        ...category(tags),
+      }
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.dist - b.dist)
+    .slice(0, 12)
+}
+
+export function useNearby(lat, lng, enabled) {
   const [items, setItems] = useState(null)
   const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(false)
-  const controllerRef = useRef(null)
 
   useEffect(() => {
     if (!enabled) return
 
-    if (cache[stationId]) {
-      setItems(cache[stationId])
+    if (allPOIs !== null) {
+      setItems(filterNearby(lat, lng))
       return
     }
 
-    controllerRef.current?.abort()
-    const controller = new AbortController()
-    controllerRef.current = controller
-
+    // 背景仍在載入中，等 promise 完成
     setLoading(true)
-    setItems(null)
-    setError(false)
-
-    fetch(OVERPASS_URL + '?data=' + encodeURIComponent(QUERY(lat, lng)), {
-      signal: controller.signal,
+    initPromise?.then(() => {
+      setItems(filterNearby(lat, lng))
+      setLoading(false)
     })
-      .then(r => {
-        if (!r.ok) throw new Error('HTTP ' + r.status)
-        return r.json()
-      })
-      .then(data => {
-        const results = (data.elements || [])
-          .map(el => {
-            const elLat = el.lat ?? el.center?.lat
-            const elLng = el.lon ?? el.center?.lon
-            const tags = el.tags || {}
-            const name = tags['name:zh'] || tags.name
-            if (!name || !elLat || !elLng) return null
-            return {
-              id: el.id,
-              name,
-              dist: distMeters(lat, lng, elLat, elLng),
-              lat: elLat,
-              lng: elLng,
-              ...getCategory(tags),
-            }
-          })
-          .filter(Boolean)
-          .sort((a, b) => a.dist - b.dist)
-          .slice(0, 12)
+  }, [lat, lng, enabled])
 
-        cache[stationId] = results
-        setItems(results)
-      })
-      .catch(e => {
-        if (e.name !== 'AbortError') setError(true)
-      })
-      .finally(() => setLoading(false))
-
-    return () => controller.abort()
-  }, [stationId, enabled])
-
-  return { items, loading, error }
+  return { items, loading }
 }

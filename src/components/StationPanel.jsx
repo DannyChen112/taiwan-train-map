@@ -57,7 +57,7 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
   const lastTrain = station.dailyPassengers < 200 && station.dailyPassengers > 0
   const { weather, loading: weatherLoading } = useWeather(station.lat, station.lng)
   const [showNearby, setShowNearby] = useState(false)
-  const { items: nearbyItems, loading: nearbyLoading, error: nearbyError } = useNearby(station.id, station.lat, station.lng, showNearby)
+  const { items: nearbyItems, loading: nearbyLoading } = useNearby(station.lat, station.lng, showNearby)
 
   return (
     <div className="fixed z-[999] flex flex-col
@@ -205,9 +205,6 @@ export default function StationPanel({ station, onClose, isFavorite, isVisited, 
               <div className="mt-2">
                 {nearbyLoading && (
                   <p className="text-xs text-[#8C7B75] py-2">查詢中...</p>
-                )}
-                {nearbyError && (
-                  <p className="text-xs text-[#E8735A] py-2">無法取得資料，請稍後再試</p>
                 )}
                 {nearbyItems && nearbyItems.length === 0 && (
                   <p className="text-xs text-[#8C7B75] py-2">此站 800m 內暫無景點資訊</p>

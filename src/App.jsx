@@ -1,9 +1,10 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import MapView from './components/MapView'
 import SearchBar from './components/SearchBar'
 import StationPanel from './components/StationPanel'
 import Drawer from './components/Drawer'
 import TrainResult from './components/TrainResult'
+import { initNearby } from './hooks/useNearby'
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { getRoutePath } from './data/lines'
 import allStations from './data/stations.json'
@@ -35,6 +36,9 @@ export default function App() {
     setTrainResult(result)
     if (!result) setHighlightPath(null)
   }
+
+  // 頁面載入後立即在背景取得全台 POI 資料
+  useEffect(() => { initNearby() }, [])
 
   const [favorites, setFavorites] = useLocalStorage('tw-train-favorites', [])
   const [visited, setVisited] = useLocalStorage('tw-train-visited', [])
