@@ -54,7 +54,7 @@ function filterNearby(lat, lng) {
   return allPOIs
     .map(el => {
       const d = dist(lat, lng, el.lat, el.lon)
-      if (d > 800) return null
+      if (d > 5000) return null
       const tags = el.tags
       return {
         id: el.id,
