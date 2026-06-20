@@ -2,7 +2,7 @@ const QUERY = `[out:json][timeout:8];(
   node["tourism"~"^(attraction|museum|viewpoint|gallery)$"](21.8,119.9,25.4,122.1);
   node["historic"~"^(monument|memorial|ruins|fort|castle)$"](21.8,119.9,25.4,122.1);
   node["leisure"~"^(park|nature_reserve)$"](21.8,119.9,25.4,122.1);
-  node["amenity"~"^(restaurant|cafe)$"](21.8,119.9,25.4,122.1);
+  node["amenity"~"^(restaurant|cafe)$"]["name:zh"](21.8,119.9,25.4,122.1);
 );out body;`
 
 export default async function handler(req, res) {
