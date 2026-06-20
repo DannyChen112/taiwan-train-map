@@ -24,15 +24,16 @@ function dist(lat1, lng1, lat2, lng2) {
 }
 
 function category(tags) {
-  const { tourism, historic, leisure } = tags
+  const { tourism, historic, leisure, amenity } = tags
   if (tourism === 'museum')    return { label: '博物館', icon: '🏛️' }
   if (tourism === 'viewpoint') return { label: '觀景點', icon: '🌄' }
-  if (tourism === 'artwork')   return { label: '藝術',   icon: '🎨' }
   if (tourism === 'gallery')   return { label: '藝廊',   icon: '🖼️' }
   if (tourism)                 return { label: '景點',   icon: '📍' }
   if (historic)                return { label: '古蹟',   icon: '🏯' }
   if (leisure === 'nature_reserve') return { label: '自然區', icon: '🌿' }
   if (leisure)                 return { label: '公園',   icon: '🌳' }
+  if (amenity === 'cafe')      return { label: '咖啡廳', icon: '☕' }
+  if (amenity === 'restaurant') return { label: '餐廳',  icon: '🍜' }
   return { label: '景點', icon: '📍' }
 }
 
