@@ -1,15 +1,22 @@
-const QUERY = `[out:json][timeout:8];(
-  node["tourism"~"^(attraction|museum|viewpoint|gallery)$"](21.8,119.9,25.4,122.1);
-  node["historic"~"^(monument|memorial|ruins|fort|castle)$"](21.8,119.9,25.4,122.1);
-  node["leisure"~"^(park|nature_reserve)$"](21.8,119.9,25.4,122.1);
-  node["amenity"~"^(restaurant|cafe)$"]["name:zh"](21.8,119.9,25.4,122.1);
-);out body;`
-
 export default async function handler(req, res) {
+  const lat = parseFloat(req.query.lat)
+  const lng = parseFloat(req.query.lng)
+  if (isNaN(lat) || isNaN(lng)) return res.status(400).json({ error: 'invalid lat/lng' })
+
+  const D = 0.045  // ~5km buffer in degrees
+  const bbox = `${lat - D},${lng - D},${lat + D},${lng + D}`
+
+  const QUERY = `[out:json][timeout:10];(
+    node["tourism"~"^(attraction|museum|viewpoint|gallery)$"](${bbox});
+    node["historic"~"^(monument|memorial|ruins|fort|castle)$"](${bbox});
+    node["leisure"~"^(park|nature_reserve)$"](${bbox});
+    node["amenity"~"^(restaurant|cafe)$"]["name:zh"](${bbox});
+  );out body;`
+
   try {
     const r = await fetch(
       'https://overpass-api.de/api/interpreter?data=' + encodeURIComponent(QUERY),
-      { headers: { 'User-Agent': 'taiwan-train-map/1.0 (https://taiwan-train-map.vercel.app)' } }
+      { headers: { 'User-Agent': 'taiwan-train-map/1.0' } }
     )
     if (!r.ok) throw new Error(`Overpass ${r.status}`)
     const data = await r.json()
